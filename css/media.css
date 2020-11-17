@@ -1,0 +1,1130 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.container-fluid {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.custom-navbar-brand svg {
+		width: 170px;
+	}
+	.hero-banner {
+		padding: 60px 0;
+		padding-bottom: 60px;
+	}	
+	.hero-content h2 {
+		font-size: 30px;
+		line-height: 30px;
+	}
+	.hero-content p {
+		font-size: 12px;
+		width: 95%;
+	}
+	.hero-form {
+		padding: 0 10px;
+	}
+	.hero-form input {
+		font-size: 15px;
+	}
+	.custom-form-group-button {
+		margin: 0;
+		padding: 0;
+	}
+	.custom-banner-search-btn {
+		width: 100%;
+	}
+	.city-page-banner {
+		padding: 250px 0;
+		padding-bottom: 50px;
+	}
+	.city-page-banner-content h2 {
+		font-size: 40px;
+		line-height: 40px;
+		letter-spacing: -1px;
+		margin-bottom: 30px;
+	}
+	.city-page-banner-content p {
+		font-size: 14px;
+		line-height: 20px;
+		width: 100%;
+	}
+	.how-it-works {
+		padding: 50px 0;
+	}
+	.work-section-content h2 {
+		font-size: 28px;
+		line-height: 40px;
+	}
+	.work-icon-box {
+		padding: 20px 15px;
+		margin-bottom: 40px;
+		min-height: 50px;
+		height: auto;
+	}
+	.work-icon-box h4 {
+		margin: 10px auto;
+	}
+	.city-details-section {
+		padding: 50px 0 20px 0;
+	}
+	.city-details-content {
+		padding-left: 20px;
+		padding-top: 180px;
+	}
+	.city-details-content h3 {
+		font-size: 48px;
+	}
+	.city-details-content-second h3 {
+		font-size: 35px;
+	}
+	.city-details-content p {
+		font-size: 14px;
+	}
+	.city-details-content-second p {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.city-details-btn-top-margin {
+		padding-top: 20px;
+	}
+	.city-details-btn {
+		padding: 18px 10px;
+		font-size: 12px;
+	}
+	.slick-next, .slick-prev {
+		padding: 5px 8px;
+		z-index: 999;
+		background-color: transparent;
+		border-color: #fff;
+		color: #fff;
+	}
+	.slick-prev {
+		position: absolute;
+		top: 120px;
+		left: 5px;
+	}
+	.slick-next {
+		position: absolute;
+		top: 120px;
+		right: 5px;
+	}
+	.card-title {
+		font-size: 16px;
+		width: 100%;
+	}
+	.card-body p {
+		font-size: 12px;
+	}
+	.card-body li p {
+		margin-bottom: 5px;
+	}
+	.newsletter-section {
+		padding: 30px 0;
+	}
+	.newsletter-content h2 {
+		font-size: 30px;
+		line-height: 35px;
+	}
+	.newsletter-vector-design-img {
+		position: absolute;
+		bottom: -230px;
+		left: -240px;
+	}
+	.newsletter-form input {
+		width: 300px!important;
+		margin-top: 20px;
+	}
+	.newsletter-submit-btn {
+		margin-top: 20px;
+	}
+	.brand-content-scroll img {
+		vertical-align: middle;
+	}
+	.city-collection-section {
+		padding: 70px 0;
+	}
+	.city-collection-header h2 {
+		font-size: 24px;
+		margin: auto;
+	}
+	.collection-card-img-top {
+		height: 300px;
+	}
+	.collection-spot-mark {
+		font-size: 14px;
+		line-height: 12px;
+	}
+	.collection-card-body p {
+		font-size: 14px;
+		line-height: 20px;
+		width: 100%;
+	}
+	.collection-card-title {
+		font-size: 20px;
+	}
+	.article-section {
+		padding-bottom: 60px;
+	}
+	.article-text-content {
+		margin-bottom: 50px;
+	}
+	.article-text-content h2 {
+		font-size: 28px;
+	}
+	.article-text-content p {
+		font-size: 16px;
+	}
+	.brand-testimonial-section {
+		padding: 50px 0;
+	}
+	.testimonial-text-content h2 {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.testimonial-text-content h5 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.testimonial-text-content svg {
+		position: absolute;
+		top: 55%;
+		bottom: 0;
+		left: -10px;
+	}
+	.testimonial-logo-top-margin {
+		margin-top: 0;
+	}
+	.city-details-places-mobile {
+		margin-top: 20px;
+	}
+	.mobile-top-margin {
+		margin-top: 50px;
+	}
+	.image-gallery-text-content {
+		padding-top: 0;
+		padding-left: 10px;
+	}
+	.image-gallery-text-content h4 {
+		font-size: 30px;
+	}
+	.image-gallery-text-content p {
+		margin-bottom: 15px;
+	}
+	.image-gallery-text-content h6 {
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.more-photos-overlay-wrap p {
+		position: absolute;
+		top: 40%;
+		left: 20%;
+	    font-size: 12px;
+	    line-height: 20px;
+	    font-weight: 700;
+	}
+	.detail-box-text-content {
+	    padding-left: 10px;
+	    padding-bottom: 50px;
+	}
+	.detail-box-text-content h3 {
+		font-size: 25px;
+	}
+	.detail-box-text-content p {
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.custom-accordion {
+		margin-left: 0;
+	}
+	.legal-insight-header h2 {
+		font-size: 30px;
+		margin-bottom: 30px;
+	}
+	.budget-calculator-wrapper {
+		padding: 10px;
+		padding-bottom: 10px;
+	}
+	.calculation-type-content {
+		font-size: 16px;
+	}
+	.calculation-type-name {
+		font-size: 12px;
+	}
+	.budget-calculator-header h2 {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.budget-calculator-header p {
+		font-size: 12px;
+	}
+	.budget-calculator-result {
+		margin-top: 50px;
+	}
+	.budget-calculator-result h6 {
+		font-size: 12px;
+	}
+	.budget-calculator-result p {
+		font-size: 12px;
+	}
+	.calculation-type-name {
+		font-size: 14px;
+	}
+	.calculation-type-content {
+		font-size: 18px;
+		margin: 0 0;
+	}
+	.calculator-total-name {
+		font-size: 12px;
+	}
+	.calculator-total-number {
+		font-size: 16px;
+	}
+	.city-search-header h2 {
+	    font-size: 30px;
+	}
+	.has-search .form-control-feedback {
+	    line-height: 40px;
+	    font-size: 18px;
+	}
+	.custom-input-group {
+		font-size: 20px;
+	}
+	.city-search-result-content {
+		margin-top: 20px;
+	}
+	.page-item.disabled .page-link {
+		font-size: 10px;
+		padding: 6px 10px;
+	}
+	.page-item {
+		margin: 0 2px;
+	}
+	.page-link {
+	    padding: 6px 10px;
+		font-size: 10px;
+	}
+	.footer-first-column svg {
+		width: 100%;
+	}
+	.footer-social-icon ul:nth-child(2) li {
+		margin-right: 20px;
+	}
+	.city-search-result-content #map {
+		height: 200px!important;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.save-search-float-section {
+		padding: 20px 10px 25px 10px;
+		position: sticky;
+		bottom: 20px;
+		left: 0;
+		width: 100%;
+	}
+	.save-search-float-section h3 {
+		font-size: 20px;
+	}
+	.save-search-float-section p {
+		font-size: 12px;
+	}
+	.save-search-modal-content {
+		width: 300px;
+	}
+	.save-search-modal-body {
+		padding: 20px 20px;
+		padding-top: 10px;
+		width: 100%;
+	}
+	.save-search-modal-body h3 {
+		font-size: 22px;
+		line-height: 20px;
+	}
+	.save-search-modal-body h6 {
+		font-size: 14px;
+		line-height: 20px;
+		margin-bottom: 25px;
+	}
+	.custom-form-input {
+		width: 100%;
+	}
+	.search-page-left-content {
+		position: relative;
+		overflow: hidden;
+		left: 0;
+		margin-left: 0;
+	}
+	.city-search-result-content-map-mobile {
+		height: 300px;
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.listing-page-main-title h2 {
+		font-size: 20px;
+		line-height: 28px;
+	}
+	.listing-page-space-feature span {
+		font-size: 16px;
+		padding: 5px;
+		height: 30px;
+		width: 30px;
+	}
+	.listing-page-space-feature img {
+		padding: 8px;
+		height: 30px;
+		width: 30px;
+	}	
+	.listing-page-space-feature h5 {
+		font-size: 12px;
+		line-height: 14px;
+	}
+	.listing-page-month-bars ul li span.active {
+		width: 35px;
+	}
+	.listing-page-month-bars ul li span.random {
+		width: 38px;
+	}
+	.listing-page-month-bars ul li span {
+		width: 38px;
+	}
+	.listing-page-accordion-card {
+	    padding: 10px 15px;
+	}
+	.listing-page-booking-request-box {
+		padding: 22px 15px 35px 15px;
+	}
+	.listing-page-right-content-card-body {
+		padding: 22px 5px 10px 15px;
+	}
+	.listing-page-calendar {
+	    padding: 30px 5px;
+	    width: 100%;
+	}
+	.booking-page-title-section h2 {
+		font-size: 30px;
+	}
+	.booking-page-card-body {
+		padding: 20px 10px;
+	}
+	.booking-page-card-body h4 {
+		font-size: 16px;
+	}
+	.booking-page-card-body h6 {
+		font-size: 14px;
+	}
+	.booking-page-card-body h5 {
+		font-size: 14px;
+	}
+	.booking-page-total-price {
+		font-size: 18px!important;
+	}
+	.booking-page-navbar-area .nav .nav-link {
+		font-size: 12px;
+	}
+	.booking-page-user-login-option h4 {
+		font-size: 14px;
+	}
+	.radio {
+		padding: 16px 14px 16px 14px;
+	}
+	.file-upload-panel h4 {
+		position: absolute;
+		top: 25%;
+		left: 20px;
+	}
+	.file-upload-panel p {
+		padding-left: 15px;
+	}
+	.add-files-btn {
+		position: absolute;
+		bottom: 0;
+		left: 15px;
+	}
+	.start-upload-btn {
+		position: absolute;
+		bottom: 0;
+		left: 140px;
+	}
+	.success-page-additional-service-top {
+		padding: 10px 10px 10px 20px;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.container-fluid {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	.city-page-banner {
+		padding: 250px 0;
+		padding-bottom: 50px;
+	}
+	.city-page-banner-content h2 {
+		font-size: 45px;
+		line-height: 45px;
+		letter-spacing: -1px;
+		margin-bottom: 30px;
+	}
+	.city-page-banner-content p {
+		font-size: 14px;
+		line-height: 20px;
+		width: 100%;
+	}
+	.city-page-nav-section {
+		padding-top: 20px;
+	}
+	.city-page-nav li {
+		margin-right: 12px;
+	}
+	.city-page-nav li a {
+		padding: 0;
+		padding-bottom: 20px;
+		font-size: 12px;
+	}
+	.city-page-nav li a:hover, .city-page-nav li a.active {
+		padding-bottom: 20px;
+	}
+	.hero-banner {
+		padding: 80px 0;
+		padding-bottom: 80px;
+	}
+	.hero-content h2 {
+		font-size: 35px;
+	}
+	.hero-content p {
+		font-size: 16px;
+		width: 85%;
+	}
+	.hero-form {
+		padding: 0 20px;
+	}
+	.form-background {
+	    padding-right: 15px;
+	}
+	.custom-banner-search-btn {
+	    padding: 25px 30px 30px 24px!important;
+	    width: 70px;
+	}
+	.work-section-content h2 {
+		font-size: 28px;
+	}
+	.icon-box-color-2 h4 {
+		margin-bottom: 50px;
+	}
+	.icon-box-color-4 h4 {
+		margin-bottom: 50px;
+	}
+	.city-details-content {
+		padding-left: 20px;
+		padding-top: 250px;
+	}
+	.city-details-content h3 {
+		font-size: 48px;
+	}
+	.city-details-content p {
+		font-size: 14px;
+	}
+	.city-details-btn-top-margin {
+		padding-top: 20px;
+	}
+	.slick-prev {
+		position: absolute;
+		top: 100px;
+		left: -65px;
+	}
+	.slick-next {
+		position: absolute;
+		top: 100px;
+		right: -65px;
+	}
+	.newsletter-content h2 {
+		font-size: 30px;
+		line-height: 44px;
+	}
+	.newsletter-vector-design-img {
+		position: absolute;
+		bottom: -230px;
+		left: -240px;
+	}
+	.newsletter-form input {
+		width: 320px!important;
+	}
+	.city-collection-header h2 {
+		font-size: 40px;
+	}
+	.collection-card-img-top {
+		height: 300px;
+	}
+	.article-text-content {
+		margin-bottom: 50px;
+	}
+	.article-text-content h2 {
+		font-size: 28px;
+	}
+	.article-text-content p {
+		font-size: 16px;
+	}
+	.testimonial-text-content h2 {
+		color: #393F3E;
+		font-size: 40px;
+		font-weight: 800;
+		line-height: 64px;
+		margin-bottom: 60px;
+	}
+	.testimonial-text-content h5 {
+		font-size: 25px;
+		line-height: 40px;
+	}
+	.testimonial-text-content svg {
+		position: absolute;
+		top: 55%;
+		bottom: 0;
+		left: -10px;
+	}
+	.mobile-top-margin {
+		margin-top: 50px;
+	}
+	.image-gallery-text-content {
+		padding-top: 0;
+		padding-left: 20px;
+	}
+	.image-gallery-text-content h4 {
+		font-size: 30px;
+	}
+	.image-gallery-text-content p {
+		margin-bottom: 15px;
+	}
+	.image-gallery-text-content h6 {
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.detail-box-text-content {
+	    padding-left: 10px;
+	    padding-bottom: 50px;
+	}
+	.detail-box-text-content h3 {
+		font-size: 30px;
+	}
+	.detail-box-text-content p {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.custom-accordion {
+		margin-left: 5px;
+	}
+	.legal-insight-header h2 {
+		font-size: 35px;
+		margin-bottom: 30px;
+	}
+	.budget-calculator-wrapper {
+		padding: 40px;
+		padding-bottom: 20px;
+	}
+	.calculation-type-content {
+		font-size: 16px;
+	}
+	.calculation-type-name {
+		font-size: 12px;
+	}
+	.budget-calculator-header h2 {
+		font-size: 35px;
+	}
+	.budget-calculator-header p {
+		font-size: 14px;
+	}
+	.budget-calculator-result {
+		margin-top: 50px;
+	}
+	.budget-calculator-result h6 {
+		font-size: 12px;
+	}
+	.budget-calculator-result p {
+		font-size: 12px;
+	}
+	.city-search-header h2 {
+	    font-size: 35px;
+	}
+	.has-search .form-control-feedback {
+	    line-height: 44px;
+	    font-size: 18px;
+	}
+	.custom-input-group {
+		font-size: 22px;
+	}
+	.city-search-result-content {
+		margin-top: 20px;
+	}
+	.search-page-result-image img {
+		width: 95%;
+	}
+	.save-search-modal-content {
+		width: 650px;
+	}
+	.save-search-float-section {
+		width: 98%;
+		position: absolute;
+		bottom: -10px;
+		margin-left: 5px;
+		padding: 10px 10px 10px 20px;
+	}
+	.save-search-modal-body {
+		padding: 40px 70px;
+		padding-top: 10px;
+		width: 100%;
+	}
+	.card-title-layout-2 {
+	    white-space: nowrap;
+    	overflow: hidden;
+    	text-overflow: ellipsis;
+    	width: 200px!important;
+	}
+	.search-page-left-content {
+		margin-left: 0;
+	}
+	.search-page-card-title {
+		width: 90%;
+	}
+	.city-search-result-content-map {
+	    padding-left: 0;
+	    padding-right: 0;
+	}
+	.listing-page-main-title h2 {
+		font-size: 30px;
+		line-height: 28px;
+	}
+	.listing-page-month-bars ul li span.active {
+		width: 32px;
+	}
+	.listing-page-month-bars ul li span.random {
+		width: 32px;
+	}
+	.listing-page-month-bars ul li span {
+		width: 32px;
+	}
+	.booking-page-title-section h2 {
+		font-size: 40px;
+	}
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.container-fluid {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.city-page-banner {
+		padding: 250px 0;
+		padding-bottom: 50px;
+	}
+	.city-page-banner-content h2 {
+		font-size: 50px;
+		line-height: 50px;
+		font-weight: 800;
+		letter-spacing: -1px;
+		color: #fff;
+		margin-bottom: 30px;
+	}
+	.city-page-banner-content p {
+		font-size: 16px;
+		line-height: 20px;
+		width: 90%;
+	}
+	.city-page-nav li {
+		margin-right: 25px;
+	}
+	.city-page-nav li a {
+		padding: 0;
+		padding-bottom: 30px;
+		font-size: 14px;
+	}
+	.hero-banner {
+		padding: 100px 0;
+		padding-bottom: 100px;
+	}
+	.custom-banner-search-btn {
+	    width: 100px;
+	}
+	.hero-content h2 {
+		font-size: 50px;
+	}
+	.hero-content p {
+		font-size: 16px;
+		width: 65%;
+	}
+	.hero-form {
+		padding: 0 20px;
+	}
+	.work-section-content h2 {
+		font-size: 35px;
+	}
+	.icon-box-color-2 h4 {
+		margin-bottom: 50px;
+	}
+	.icon-box-color-4 h4 {
+		margin-bottom: 50px;
+	}
+	.city-details-content {
+		padding-left: 20px;
+		padding-top: 250px;
+	}
+	.city-details-content h3 {
+		font-size: 48px;
+	}
+	.city-details-content p {
+		font-size: 14px;
+	}
+	.city-details-btn-top-margin {
+		padding-top: 350px;
+	}
+	.slick-prev {
+		position: absolute;
+		top: 100px;
+		left: -60px;
+	}
+	.slick-next {
+		position: absolute;
+		top: 100px;
+		right: -60px;
+	}
+	.newsletter-content h2 {
+		font-size: 30px;
+		line-height: 44px;
+	}
+	.newsletter-vector-design-img {
+		position: absolute;
+		bottom: -160px;
+		left: -190px;
+	}
+	.newsletter-form input {
+		width: 220px!important;
+	}
+	.city-collection-header h2 {
+		font-size: 40px;
+	}
+	.collection-card-img-top {
+		height: 300px;
+	}
+	.article-text-content h2 {
+		font-size: 28px;
+	}
+	.article-text-content p {
+		font-size: 16px;
+	}
+	.testimonial-text-content h2 {
+		color: #393F3E;
+		font-size: 40px;
+		font-weight: 800;
+		line-height: 64px;
+		margin-bottom: 60px;
+	}
+	.testimonial-text-content h5 {
+		font-size: 25px;
+		line-height: 40px;
+	}
+	.testimonial-text-content svg {
+		position: absolute;
+		top: 45%;
+		bottom: 0;
+		left: -10px;
+	}
+	.image-gallery-text-content {
+		padding-top: 0;
+		padding-left: 20px;
+	}
+	.image-gallery-text-content h4 {
+		font-size: 30px;
+	}
+	.image-gallery-text-content p {
+		margin-bottom: 15px;
+	}
+	.image-gallery-text-content h6 {
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.more-photos-overlay-wrap p {
+		position: absolute;
+		top: 40%;
+		left: 25%;
+	}
+	.detail-box-text-content {
+	    padding-left: 5px;
+	    padding-bottom: 50px;
+	}
+	.detail-box-text-content h3 {
+		font-size: 25px;
+		line-height: 40px;
+	}
+	.detail-box-text-content p {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.custom-accordion {
+		margin-left: 10px;
+	}
+	.legal-insight-header h2 {
+		font-size: 40px;
+		margin-bottom: 30px;
+	}
+	.budget-calculator-header h2 {
+		font-size: 40px;
+	}
+	.budget-calculator-header p {
+		font-size: 16px;
+	}
+	.budget-calculator-result {
+		margin-top: 50px;
+	}
+	.city-search-header h2 {
+	    font-size: 40px;
+	}
+	.city-search-result-content {
+		margin-top: 10px;
+	}
+	.search-page-result {
+		height: 80vh;
+	}
+	.search-page-result-image img {
+		height: auto;
+	}
+	.search-page-city-content .card-title {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		width: 200px;
+	}
+	.search-page-result-price {
+		margin: auto;
+		vertical-align: middle;
+	}
+	.search-page-result-price p {
+		font-size: 11px;
+	}
+	.card-online-bookable-mark {
+		font-size: 10px;
+		line-height: 18px;
+		margin-bottom: 5px;
+	}
+	.card-top-pick-mark {
+		font-size: 10px;
+		line-height: 18px;
+		margin-bottom: 5px;
+	}
+	.save-search-float-section {
+		padding: 15px 15px 15px 25px;
+		position: sticky;
+		bottom: 20px;
+		left: 0;
+		width: 99%;
+	}
+	.save-search-float-section h3 {
+		font-size: 20px;
+	}
+	.save-search-float-section p {
+		font-size: 12px;
+	}
+	.save-search-modal-content {
+		width: 700px;
+	}
+	.save-search-modal-body {
+		padding: 50px 80px;
+		padding-top: 10px;
+		width: 100%;
+	}
+	.card-title-layout-2 {
+	    white-space: nowrap;
+    	overflow: hidden;
+    	text-overflow: ellipsis;
+    	width: 120px!important;
+	}
+	.search-page-left-content {
+		margin-left: 0;
+	}
+	.search-page-city-content {
+	    margin-top: 0px;
+	    width: 100%;
+	}
+/*	.search-page-result {
+		height: 100%;
+		width: 100%;
+		position: relative;
+	}*/
+	.city-search-result-content-map {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.listing-page-main-title h2 {
+		font-size: 30px;
+	}
+	.listing-page-month-bars ul li span.active {
+		width: 50px;
+	}
+	.listing-page-month-bars ul li span.random {
+		width: 50px;
+	}
+	.listing-page-month-bars ul li span {
+		width: 50px;
+	}
+	.booking-page-title-section h2 {
+		font-size: 40px;
+	}
+	.booking-page-card-body {
+		padding: 20px 10px;
+	}
+	.booking-page-card-body h4 {
+		font-size: 16px;
+	}
+	.booking-page-card-body h6 {
+		font-size: 14px;
+	}
+	.booking-page-card-body h5 {
+		font-size: 14px;
+	}
+	.booking-page-total-price {
+		font-size: 18px!important;
+	}
+	.booking-page-navbar-area .nav .nav-link {
+		font-size: 12px;
+	}
+	.btn-concept-select {
+		padding: 12px 8px!important;
+	}
+	.success-page-additional-service-top {
+		padding: 10px 10px 10px 20px;
+	}
+	.success-page-accordion-content-border img {
+		width: 100%;
+	}
+	.inquire-modal-service-box {
+		padding: 16px 10px;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.hero-form {
+		padding: 0 20px;
+	}
+	.city-page-banner {
+		padding: 400px 0;
+		padding-bottom: 50px;
+	}
+	.city-page-banner-content p {
+		width: 85%;
+	}
+	.city-page-nav li {
+		margin-right: 40px;
+	}
+	.form-background {
+	    padding-right: 28px;
+	}
+	.work-section-content h2 {
+		font-size: 48px;
+	}
+	.work-icon-box {
+		padding: 50px 20px;
+	}
+	.slick-prev {
+		position: absolute;
+		top: 100px;
+		left: -70px;
+	}
+	.slick-next {
+		position: absolute;
+		top: 100px;
+		right: -70px;
+	}
+	.card-title {
+		font-size: 16px;
+		width: 100%;
+	}
+	.newsletter-content h2 {
+		font-size: 48px;
+	}
+	.newsletter-vector-design-img {
+		position: absolute;
+		bottom: -230px;
+		left: -240px;
+	}
+	.newsletter-form input {
+		width: 300px!important;
+	}
+	.city-collection-header h2 {
+		font-size: 48px;
+	}
+	.collection-card-title {
+		font-size: 22px;
+	}
+	.article-text-content h2 {
+		font-size: 38px;
+	}
+	.article-text-content p {
+		font-size: 16px;
+	}
+	.testimonial-text-content h2 {
+		font-size: 48px;
+	}
+	.testimonial-text-content h5 {
+		font-size: 24px;
+	}
+	.testimonial-text-content svg {
+		position: absolute;
+		top: 45%;
+		bottom: 0;
+		left: -40px;
+	}
+	.image-gallery-text-content p {
+		margin-bottom: 35px;
+	}
+	.budget-calculator-header h2 {
+		font-size: 48px;
+	}
+	.budget-calculator-header p {
+		font-size: 16px;
+	}
+	.budget-calculator-wrapper {
+		padding: 40px;
+	}
+	.calculation-type-content {
+		font-size: 16px;
+	}
+	.calculation-type-name {
+		font-size: 12px;
+	}
+	.search-page-city-content {
+		margin-top: 15px;
+		width: 98%;
+	}
+	.search-page-left-content {
+		margin-left: 25px;
+	}
+	.footer-social-icon ul:nth-child(2) li {
+		margin-right: 30px;
+	}
+	.city-search-result-content-map {
+	    padding-left: 0;
+	    padding-right: 0;
+	}
+	.listing-page-main-title h2 {
+		font-size: 35px;
+	}
+	.listing-page-month-bars ul li span.active {
+		width: 35px;
+	}
+	.listing-page-month-bars ul li span.random {
+		width: 35px;
+	}
+	.listing-page-month-bars ul li span {
+		width: 35px;
+	}
+	.listing-page-calendar {
+	    padding: 30px 10px;
+	    width: 112%;
+	}
+	.btn-concept-select {
+		padding: 12px 8px!important;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

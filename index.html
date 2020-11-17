@@ -1,0 +1,1630 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap, Slider & Google Font CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous" />
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
+    <!-- <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/> -->
+    
+    <!-- Style CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.css">
+    <link rel="stylesheet" type="text/css" href="fonts/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+
+    <title>Success Page</title>
+
+  </head>
+  <body>
+      <!-- Header Section Starts Here -->
+      <header class="header-border">
+        <div class="container">
+          <nav class="navbar navbar-expand navbar-light">
+            <a class="navbar-brand custom-navbar-brand" href="#"><svg width="206" height="20" viewBox="0 0 206 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H6.93681C8.37508 0 9.65311 0.139602 10.7727 0.418451C11.8922 0.6973 12.8344 1.10654 13.5997 1.64652C14.3644 2.1865 14.9466 2.84554 15.3474 3.62362C15.7471 4.4017 15.9482 5.28998 15.9482 6.28845C15.9482 7.26 15.7206 8.12808 15.2657 8.89305C14.8104 9.65767 14.1869 10.3078 13.395 10.8429C12.6031 11.3786 11.6768 11.7875 10.6167 12.0713C9.55631 12.3544 8.42061 12.4961 7.21034 12.4961H6.03557V19H0V0ZM7.23601 8.66345C8.19999 8.66345 8.95641 8.46539 9.50168 8.06961C10.0477 7.67384 10.3208 7.08 10.3208 6.28845C10.3208 5.90153 10.2409 5.56422 10.0817 5.27652C9.92326 4.98845 9.70387 4.74823 9.42639 4.55441C9.14928 4.36131 8.82341 4.21498 8.45022 4.11612C8.07667 4.01727 7.67193 3.96766 7.23493 3.96766H6.03255V8.60924C6.15982 8.62731 6.32401 8.64077 6.52404 8.64963C6.72623 8.65884 6.96284 8.66345 7.23601 8.66345ZM16.945 10.0202C16.945 7.25569 17.8434 4.92602 19.6414 3.03186C21.5595 1.01062 24.1537 0 27.4245 0C29.0181 0 30.4589 0.251316 31.747 0.754663C33.0349 1.2573 34.1329 1.95306 35.0408 2.84159C35.9488 3.72976 36.6483 4.78822 37.1395 6.01624C37.6307 7.24462 37.877 8.57938 37.877 10.0205C37.877 10.8909 37.7748 11.7426 37.5705 12.5765C37.3665 13.4104 37.0632 14.1969 36.6607 14.9351C36.2579 15.6741 35.7586 16.3541 35.166 16.9746C34.573 17.5957 33.8895 18.1305 33.1159 18.5788C32.343 19.0279 31.4814 19.3767 30.5307 19.6262C29.5808 19.8751 28.5463 20 27.4245 20C26.2765 20 25.2215 19.8736 24.2624 19.6202C23.3034 19.3667 22.4349 19.0137 21.6565 18.5596C20.8781 18.1055 20.195 17.5672 19.6064 16.9417C19.0178 16.3163 18.5269 15.6344 18.1332 14.8966C17.7391 14.158 17.4427 13.3755 17.2435 12.5512C17.0442 11.7244 16.945 10.8812 16.945 10.0202ZM27.4245 14.9419C28.1562 14.9419 28.7795 14.7898 29.294 14.4867C29.8086 14.1833 30.2297 13.7931 30.5589 13.3176C30.8877 12.8414 31.1292 12.3091 31.2814 11.7198C31.4336 11.1304 31.5106 10.5549 31.5106 9.99304C31.5106 9.25872 31.4153 8.58616 31.2256 7.97394C31.0355 7.36242 30.7621 6.83195 30.4056 6.38358C30.0487 5.93449 29.6181 5.57894 29.113 5.3162C28.608 5.05346 28.0449 4.90816 27.4245 4.88103C26.683 4.89924 26.0532 5.06238 25.5342 5.37046C25.0153 5.67853 24.5913 6.0755 24.2625 6.55993C23.9344 7.04507 23.6925 7.58911 23.5403 8.19134C23.3874 8.79429 23.3111 9.39473 23.3111 9.99304C23.3111 10.6999 23.406 11.3549 23.5954 11.9579C23.7855 12.5605 24.0592 13.0817 24.4154 13.5211C24.7726 13.9609 25.2054 14.3075 25.7156 14.5614C26.2243 14.8152 26.7943 14.9419 27.4245 14.9419ZM47.804 0H40.8672V19H46.9042V12.4961H48.0775C49.2878 12.4961 50.4235 12.3544 51.4839 12.0713C52.544 11.7875 53.4703 11.3786 54.2622 10.8429C55.0541 10.3078 55.6776 9.65767 56.1328 8.89305C56.5878 8.12808 56.8154 7.26 56.8154 6.28845C56.8154 5.28998 56.615 4.4017 56.2146 3.62362C55.8138 2.84554 55.2316 2.1865 54.4669 1.64652C53.7023 1.10654 52.7601 0.6973 51.6406 0.418451C50.521 0.139602 49.2423 0 47.804 0ZM50.3702 8.06961C49.8242 8.46539 49.0686 8.66345 48.1038 8.66345C47.8307 8.66345 47.5937 8.65884 47.3919 8.64963C47.1918 8.64077 47.0277 8.62731 46.9004 8.60924V3.96766H48.1028C48.5398 3.96766 48.9445 4.01727 49.3181 4.11612C49.6912 4.21498 50.0171 4.36131 50.2949 4.55441C50.5717 4.74823 50.7911 4.98845 50.9503 5.27652C51.1087 5.56422 51.1894 5.90153 51.1894 6.28845C51.1894 7.08 50.9155 7.67384 50.3702 8.06961ZM76.6322 13.9935C76.0924 14.5719 75.3008 14.8611 74.2581 14.8611C72.1358 14.8611 71.0744 13.7218 71.0762 11.4445V0H64.7897V11.4452C64.7897 14.1675 65.7557 16.2971 67.6876 17.8342C69.4837 19.2783 71.6742 20 74.2591 20C75.0111 20 75.7688 19.9285 76.5304 19.7848C77.2917 19.6419 78.0247 19.4194 78.7277 19.1182C79.4304 18.817 80.0852 18.4352 80.6936 17.9721C81.3019 17.5089 81.8296 16.9605 82.2786 16.3259C82.7283 15.6921 83.0813 14.9697 83.3406 14.1594C83.5989 13.3499 83.7282 12.4444 83.7282 11.4445V0H77.4417V11.4452C77.4417 12.5655 77.1716 13.4151 76.6322 13.9935ZM94.6514 0H87.716V19H93.7508V12.4961H94.9256C96.1359 12.4961 97.2716 12.3544 98.332 12.0713C99.3921 11.7875 100.318 11.3786 101.11 10.8429C101.902 10.3078 102.525 9.65767 102.981 8.89305C103.435 8.12808 103.663 7.26 103.663 6.28845C103.663 5.28998 103.462 4.4017 103.062 3.62362C102.661 2.84554 102.079 2.1865 101.314 1.64652C100.55 1.10654 99.6075 0.6973 98.488 0.418451C97.3684 0.139602 96.0904 0 94.6514 0ZM97.2175 8.06961C96.6715 8.46539 95.9158 8.66345 94.9511 8.66345C94.6783 8.66345 94.4413 8.65884 94.2399 8.64963C94.0398 8.64077 93.8753 8.62731 93.7484 8.60924V3.96766H94.95C95.3877 3.96766 95.7925 4.01727 96.166 4.11612C96.5392 4.21498 96.8644 4.36131 97.1422 4.55441C97.4197 4.74823 97.6384 4.98845 97.7975 5.27652C97.9567 5.56422 98.0366 5.90153 98.0366 6.28845C98.0366 7.08 97.7635 7.67384 97.2175 8.06961ZM124.063 16.2842C124.418 15.4469 124.595 14.4566 124.595 13.3154C124.595 11.7664 123.952 10.4486 122.666 9.36125C121.381 8.27426 119.491 7.44555 116.994 6.87477C115.981 6.57582 115.475 6.14131 115.475 5.57052C115.475 5.19023 115.586 4.93873 115.807 4.81672C116.027 4.69401 116.345 4.633 116.76 4.633C116.824 4.633 116.892 4.6355 116.96 4.63978C117.029 4.64477 117.115 4.64692 117.216 4.64692H117.686C117.889 4.64692 118.082 4.65583 118.266 4.67403C118.45 4.69222 118.7 4.73325 119.013 4.79639C119.326 4.85953 119.742 4.95728 120.263 5.08856C120.784 5.21984 121.491 5.39857 122.385 5.6251L123.903 1.46728C121.84 0.489093 119.611 0 117.216 0C112.168 0 109.644 2.06518 109.644 6.19553C109.644 6.92007 109.759 7.58397 109.989 8.18615C110.219 8.78833 110.539 9.32736 110.949 9.80254C111.359 10.2784 111.846 10.688 112.408 11.0322C112.968 11.3765 113.576 11.648 114.231 11.8474C114.7 12.0104 115.207 12.162 115.75 12.3022C116.294 12.4428 116.793 12.599 117.25 12.771C117.705 12.9433 118.086 13.1381 118.39 13.3553C118.694 13.5726 118.846 13.8398 118.846 14.1569C118.846 14.4195 118.778 14.6271 118.645 14.7816C118.513 14.935 118.334 15.0531 118.113 15.1348C117.893 15.2165 117.637 15.2685 117.346 15.291C117.056 15.3149 116.754 15.3253 116.442 15.3253C116.249 15.3253 116.023 15.3081 115.765 15.2717C115.507 15.2357 115.235 15.1933 114.95 15.143C114.664 15.0927 114.379 15.0363 114.093 14.9728C113.808 14.9086 113.542 14.8497 113.292 14.7959L111.219 14.2936C111.164 14.4295 111.109 14.5925 111.054 14.7827C110.732 15.9239 110.29 17.1832 109.727 18.5598C111.763 19.5198 114.131 20 116.829 20C118.046 20 119.135 19.8641 120.097 19.5915C121.06 19.3208 121.873 18.9109 122.537 18.3626C123.2 17.815 123.708 17.1222 124.063 16.2842ZM128.583 0H134.998V7.55677H141.078V0H147.521V19H141.078V11.5509H134.998V18.9996H128.583V0ZM148.518 10.0202C148.518 7.25569 149.417 4.92602 151.215 3.03186C153.133 1.01062 155.727 0 158.998 0C160.591 0 162.032 0.251316 163.321 0.754663C164.608 1.2573 165.706 1.95306 166.614 2.84159C167.522 3.72976 168.221 4.78822 168.713 6.01624C169.204 7.24462 169.45 8.57938 169.45 10.0205C169.45 10.8909 169.348 11.7426 169.144 12.5765C168.94 13.4104 168.637 14.1969 168.234 14.9351C167.831 15.6741 167.333 16.3541 166.74 16.9746C166.147 17.5957 165.463 18.1305 164.69 18.5788C163.916 19.0279 163.054 19.3767 162.105 19.6262C161.154 19.8751 160.119 20 158.998 20C157.849 20 156.795 19.8736 155.836 19.6202C154.877 19.3664 154.009 19.0137 153.229 18.5596C152.451 18.1058 151.768 17.5672 151.18 16.9417C150.592 16.3163 150.101 15.6344 149.707 14.8966C149.313 14.158 149.016 13.3755 148.818 12.5512C148.618 11.7244 148.518 10.8812 148.518 10.0202ZM158.998 14.9419C159.73 14.9419 160.354 14.7898 160.867 14.4867C161.381 14.183 161.803 13.7931 162.133 13.3176C162.46 12.8414 162.702 12.3091 162.855 11.7198C163.007 11.1307 163.084 10.5549 163.084 9.99304C163.084 9.25872 162.989 8.58616 162.8 7.97394C162.61 7.36242 162.336 6.83195 161.98 6.38358C161.622 5.93449 161.192 5.57894 160.688 5.3162C160.182 5.05346 159.619 4.90816 158.999 4.88103C158.257 4.89924 157.627 5.06238 157.108 5.37046C156.588 5.67853 156.165 6.0755 155.837 6.55993C155.508 7.04507 155.266 7.58911 155.114 8.19134C154.961 8.79429 154.885 9.39473 154.885 9.99304C154.885 10.6999 154.98 11.3549 155.169 11.9579C155.36 12.5605 155.633 13.0817 155.99 13.5211C156.346 13.9609 156.78 14.3075 157.289 14.5614C157.799 14.8152 158.368 14.9419 158.998 14.9419ZM179.376 0H172.44L172.441 19H178.476V12.4961H179.65C180.86 12.4961 181.996 12.3544 183.057 12.0713C184.117 11.7875 185.043 11.3786 185.835 10.8429C186.627 10.3078 187.25 9.65767 187.706 8.89305C188.16 8.12808 188.388 7.26 188.388 6.28845C188.388 5.28998 188.187 4.4017 187.787 3.62362C187.387 2.84554 186.805 2.1865 186.039 1.64652C185.274 1.10654 184.332 0.6973 183.213 0.418451C182.093 0.139602 180.815 0 179.376 0ZM181.942 8.06961C181.397 8.46539 180.64 8.66345 179.676 8.66345C179.404 8.66345 179.166 8.65884 178.965 8.64963C178.765 8.64077 178.6 8.62731 178.473 8.60924V3.96766H179.675C180.113 3.96766 180.518 4.01727 180.891 4.11612C181.264 4.21498 181.59 4.36131 181.867 4.55441C182.145 4.74823 182.364 4.98845 182.522 5.27652C182.682 5.56422 182.762 5.90153 182.762 6.28845C182.762 7.08 182.488 7.67384 181.942 8.06961ZM204.801 16.2842C205.157 15.4469 205.333 14.4566 205.333 13.3154C205.333 11.7664 204.691 10.4486 203.405 9.36125C202.12 8.27426 200.229 7.44555 197.733 6.87477C196.72 6.57582 196.213 6.14131 196.213 5.57052C196.213 5.19023 196.324 4.93873 196.545 4.81672C196.766 4.69401 197.084 4.633 197.498 4.633C197.563 4.633 197.63 4.6355 197.699 4.63978C197.768 4.64477 197.853 4.64692 197.954 4.64692H198.424C198.627 4.64692 198.82 4.65583 199.005 4.67403C199.19 4.69222 199.439 4.73289 199.752 4.79639C200.064 4.85953 200.481 4.95728 201.002 5.08856C201.522 5.21984 202.229 5.39857 203.123 5.6251L204.641 1.46728C202.577 0.489093 200.348 0 197.953 0C192.905 0 190.382 2.06518 190.382 6.19553C190.382 6.92007 190.498 7.58397 190.727 8.18615C190.957 8.78833 191.277 9.32736 191.687 9.80254C192.097 10.2784 192.584 10.688 193.145 11.0322C193.707 11.3765 194.314 11.648 194.969 11.8474C195.438 12.0104 195.945 12.162 196.488 12.3022C197.032 12.4428 197.532 12.599 197.987 12.771C198.444 12.9433 198.824 13.1381 199.128 13.3553C199.432 13.5726 199.584 13.8398 199.584 14.1569C199.584 14.4195 199.517 14.6271 199.384 14.7816C199.25 14.935 199.072 15.0531 198.852 15.1348C198.631 15.2165 198.375 15.2685 198.085 15.291C197.794 15.3149 197.493 15.3253 197.18 15.3253C196.987 15.3253 196.761 15.3078 196.503 15.2717C196.245 15.2357 195.973 15.1933 195.688 15.143C195.403 15.0927 195.117 15.0363 194.832 14.9728C194.547 14.9086 194.28 14.8497 194.031 14.7959L191.958 14.2936C191.903 14.4295 191.847 14.5925 191.792 14.7827C191.47 15.9239 191.028 17.1832 190.466 18.5598C192.501 19.5198 194.869 20 197.568 20C198.784 20 199.874 19.8641 200.836 19.5915C201.798 19.3208 202.611 18.9109 203.275 18.3626C203.938 17.815 204.446 17.1222 204.801 16.2842Z" fill="#393F3E"/>
+            </svg></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="nav nav-pills ml-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link custom-nav-link dropdown-toggle custom-dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><span class="icon-user-hamburger"></span></a>
+                  <div class="dropdown-menu dropdown-menu-right custom-dropdown-menu">
+                    <a class="dropdown-item" href="#">List a space</a>
+                    <a class="dropdown-item" href="#">Discover Brands</a>
+                    <a class="dropdown-item" href="#">Events</a>
+                    <div class="dropdown-divider my-3"></div>
+                    <ul class="list-inline">
+                      <li class="list-inline-item nav-user-btn-active"><a href="#">Login</a></li>
+                      <li class="list-inline-item nav-user-btn"><a href="#">Register</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- Header Section Ends Here -->
+
+      <!-- Booking Page Title Section Starts Here -->
+      <section class="booking-page-title-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h2>Request successfully sent</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Booking Page Title Section Ends Here -->
+      <!-- Booking Page Left Content Section Starts Here -->
+      <section class="booking-page-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-md-5">
+              <div class="booking-page-left-content">
+                <h4>Details</h4>
+              </div>
+              <div class="card booking-page-card-content">
+                <img src="images/listing-page-main-img.png" class="card-img-top" alt="card top">
+                <div class="card-body booking-page-card-body">
+                  <h4>Pop-Up Mietfläche in der Europaallee-Passage</h4>
+                  <h6>Shop-in-Shop in London</h6>
+                  <h6>172 sqm</h6>
+                </div>
+              </div>
+              <div class="card listing-page-right-content-card mt-5 mb-5">
+                <div class="card-header listing-page-right-content-card-header">
+                    <h6>BOOKING DETAILS</h6>
+                </div>
+                <div class="card-body booking-page-card-body">
+                  <div class="row mb-2">
+                    <div class="col-5">
+                      <h6>Dates</h6>
+                    </div>
+                    <div class="col-7">
+                      <h5>8 March - 16 March</h5>
+                    </div>
+                  </div>
+                  <div class="row mb-2">
+                    <div class="col-5">
+                      <h6>Duration</h6>
+                    </div>
+                    <div class="col-7">
+                      <h5>8 days</h5>
+                    </div>
+                  </div>
+                  <div class="row mb-2">
+                    <div class="col-7">
+                      <h6>Cancellation Policy</h6>
+                    </div>
+                    <div class="col-5">
+                      <h5>Flexible  &nbsp; <a tabindex="0" data-placement="top" data-toggle="popover" data-trigger="hover" data-container="body" type="button" href="#" data-content="This helps us run our platform and offer you dedicated customer service during your booking."><span class="icon-info"></span></a></h5>
+                    </div>
+                  </div>
+                  <div class="row mb-2">
+                    <div class="col-5">
+                      <h6>Rent Price</h6>
+                    </div>
+                    <div class="col-7">
+                      <h5>CHF 500.00 incl. VAT</h5>
+                    </div>
+                  </div>
+                  <div class="row mb-2">
+                    <div class="col-5">
+                      <h6>Discount</h6>
+                    </div>
+                    <div class="col-7">
+                      <h5><a href="#" data-toggle="modal" data-target="#applyCouponhModal" style="text-decoration: underline;">Apply Promo Code</a></h5>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-5">
+                      <h6>Rent Price</h6>
+                    </div>
+                    <div class="col-7">
+                      <h5>CHF 89.00 incl. VAT</h5>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row mt-4 mb-3">
+                    <div class="col-5">
+                      <h5 class="text-left">Total Price</h5>
+                    </div>
+                    <div class="col-7">
+                      <h5 class="booking-page-total-price">CHF 589.00</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7 col-md-7">
+              <div class="success-page-right-content">
+                <h4>The landlord will</h4>
+                <p>You won’t need to pay right now</p>
+              </div>
+              <div class="success-page-blank-space"></div>
+              <div class="success-page-right-content">
+                <h4>Discover additional services</h4>
+                <p>You won’t need to pay right now</p>
+              </div>
+              <div class="success-page-additional-service-top">
+                <div class="row">
+                  <div class="col-sm-8 my-auto order-sm-0 order-1">
+                    <h3>Safer Shop Package</h3>
+                    <p>Explain the concept .....Id sed alia regione detraxit, ex mei oporteat mediocrem. Iusto animal accommodare at vis, possim doctus consectetuer qui no. Nam dignissim vituperata cu.</p>
+                    <a href="#">See the providers</a>
+                  </div>
+                  <div class="col-sm-4 my-auto order-sm-1 order-0">
+                    <img src="images/success-page-top-img.png" class="img-fluid" alt="Image">
+                  </div>
+                </div>
+              </div>
+              <div class="success-page-aditional-service-content">
+                <div class="accordion custom-accordion ml-0" id="accordionLegal">
+                  <div class="card listing-page-accordion-card success-page-accordion-card">
+                    <div class="card-header" id="headingOne">
+                      <h2 class="mb-0">
+                        <button class="custom-accordion-btn listing-page-accordion-btn success-page-accordion-btn law-q-1 btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                          <span class="row success-additional-service-accordion">
+                            <span class="col-1">
+                              <img src="images/staff-accordion-icon.svg" alt="Icon">
+                            </span>
+                            <span class="col-8 my-auto">
+                              <h6>Staff</h6>
+                              <p>by ADIA</p>
+                            </span>
+                          </span>
+                        </button>
+                      </h2>
+                    </div>
+
+                    <div id="collapseOne" class="collapse success-page-accordion-content-border" aria-labelledby="headingOne" data-parent="#accordionLegal">
+                      <div class="card-body law-a-1">
+                        <div class="row">
+                          <div class="col-1 mt-lg-4 mt-md-1 mt-4">
+                            <div class="form-check pl-0">
+                              <label class="check-container my-auto payment-check-label">
+                                <input type="checkbox">
+                                <span class="checkmark payment-terms-checkmark"></span>
+                              </label>
+                            </div>
+                          </div>
+                          <div class="col-3 my-auto">
+                            <img src="images/random-staff-image.png" alt="">
+                          </div>
+                          <div class="col-lg-8 col-md-12 col-sm-8 col-12">
+                            <div class="row">
+                              <div class="col-lg-8 col-md-9 col-sm-8 col-8">
+                                <h6>Promotor</h6>
+                                <p>ab CHF 150.00 pro Tag</p>
+                              </div>
+                              <div class="col-lg-4 col-md-3 col-sm-4 col-3">
+                                <img src="images/staff-logo.png" alt="">
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <p> Lorem ipsum dolor sit amet, consectetur elit. Nam massa orci, faucibus vitae leo.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row mt-4">
+                          <div class="col-1 mt-lg-4 mt-md-1 mt-4">
+                            <div class="form-check pl-0">
+                              <label class="check-container my-auto payment-check-label">
+                                <input type="checkbox">
+                                <span class="checkmark payment-terms-checkmark"></span>
+                              </label>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <img src="images/random-staff-image.png" alt="">
+                          </div>
+                          <div class="col-lg-8 col-md-12 col-sm-8 col-12">
+                            <div class="row">
+                              <div class="col-12">
+                                <h6>Sales Assistant</h6>
+                                <p>ab CHF 150.00 pro Tag</p>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <p> Lorem ipsum dolor sit amet, consectetur elit. Nam massa orci, faucibus vitae leo.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row mt-4">
+                          <div class="col-1 mt-lg-4 mt-md-1 mt-4">
+                            <div class="form-check pl-0">
+                              <label class="check-container my-auto payment-check-label">
+                                <input type="checkbox">
+                                <span class="checkmark payment-terms-checkmark"></span>
+                              </label>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <img src="images/random-staff-image.png" alt="">
+                          </div>
+                          <div class="col-lg-8 col-md-12 col-sm-8 col-12">
+                            <div class="row">
+                              <div class="col-12">
+                                <h6>Courier</h6>
+                                <p>ab CHF 150.00 pro Tag</p>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <p> Lorem ipsum dolor sit amet, consectetur elit. Nam massa orci, faucibus vitae leo.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="card listing-page-accordion-card success-page-accordion-card">
+                    <div class="card-header" id="headingOne">
+                      <h2 class="mb-0">
+                        <button class="custom-accordion-btn listing-page-accordion-btn success-page-accordion-btn law-q-1 btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          <span class="row success-additional-service-accordion">
+                            <span class="col-1">
+                              <img src="images/shield-icon-grey.svg" alt="Icon">
+                            </span>
+                            <span class="col-8 my-auto">
+                              <h6>Insurance</h6>
+                              <p>Bespoke</p>
+                            </span>
+                          </span>
+                        </button>
+                      </h2>
+                    </div>
+
+                    <div id="collapseTwo" class="collapse success-page-accordion-content-border" aria-labelledby="headingOne" data-parent="#accordionLegal">
+                      <div class="card-body law-a-1">
+                        <div class="row">
+                          <div class="col-1 mt-lg-4 mt-md-1 mt-4">
+                            <div class="form-check pl-0">
+                              <label class="check-container my-auto payment-check-label">
+                                <input type="checkbox">
+                                <span class="checkmark payment-terms-checkmark"></span>
+                              </label>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <img src="images/random-staff-image.png" alt="">
+                          </div>
+                          <div class="col-lg-8 col-md-12 col-sm-8 col-12">
+                            <div class="row">
+                              <div class="col-8">
+                                <h6>Promotor</h6>
+                                <p>ab CHF 150.00 pro Tag</p>
+                              </div>
+                              <div class="col-4">
+                                <img src="images/staff-logo.png" alt="">
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <p> Lorem ipsum dolor sit amet, consectetur elit. Nam massa orci, faucibus vitae leo.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row mt-4">
+                          <div class="col-1 mt-lg-4 mt-md-1 mt-4">
+                            <div class="form-check pl-0">
+                              <label class="check-container my-auto payment-check-label">
+                                <input type="checkbox">
+                                <span class="checkmark payment-terms-checkmark"></span>
+                              </label>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <img src="images/random-staff-image.png" alt="">
+                          </div>
+                          <div class="col-lg-8 col-md-12 col-sm-8 col-12">
+                            <div class="row">
+                              <div class="col-12">
+                                <h6>Sales Assistant</h6>
+                                <p>ab CHF 150.00 pro Tag</p>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <p> Lorem ipsum dolor sit amet, consectetur elit. Nam massa orci, faucibus vitae leo.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row mt-4">
+                          <div class="col-1 mt-lg-4 mt-md-1 mt-4">
+                            <div class="form-check pl-0">
+                              <label class="check-container my-auto payment-check-label">
+                                <input type="checkbox">
+                                <span class="checkmark payment-terms-checkmark"></span>
+                              </label>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <img src="images/random-staff-image.png" alt="">
+                          </div>
+                          <div class="col-lg-8 col-md-12 col-sm-8 col-12">
+                            <div class="row">
+                              <div class="col-12">
+                                <h6>Courier</h6>
+                                <p>ab CHF 150.00 pro Tag</p>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <p> Lorem ipsum dolor sit amet, consectetur elit. Nam massa orci, faucibus vitae leo.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card listing-page-accordion-card success-page-accordion-card">
+                    <div class="card-header" id="headingOne">
+                      <h2 class="mb-0">
+                        <button class="custom-accordion-btn listing-page-accordion-btn success-page-accordion-btn law-q-1 btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          <span class="row success-additional-service-accordion">
+                            <span class="col-1">
+                              <img src="images/shopfitting-icon.svg" alt="Icon">
+                            </span>
+                            <span class="col-8 my-auto">
+                              <h6>Shopfitting</h6>
+                              <p>From CHF 89,00</p>
+                            </span>
+                          </span>
+                        </button>
+                      </h2>
+                    </div>
+
+                    <div id="collapseThree" class="collapse success-page-accordion-content-border" aria-labelledby="headingOne" data-parent="#accordionLegal">
+                      <div class="card-body law-a-1">
+                        <div class="row">
+                          <div class="col-1 mt-lg-4 mt-md-1 mt-4">
+                            <div class="form-check pl-0">
+                              <label class="check-container my-auto payment-check-label">
+                                <input type="checkbox">
+                                <span class="checkmark payment-terms-checkmark"></span>
+                              </label>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <img src="images/random-staff-image.png" alt="">
+                          </div>
+                          <div class="col-lg-8 col-md-12 col-sm-8 col-12">
+                            <div class="row">
+                              <div class="col-8">
+                                <h6>Promotor</h6>
+                                <p>ab CHF 150.00 pro Tag</p>
+                              </div>
+                              <div class="col-4">
+                                <img src="images/staff-logo.png" alt="">
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <p> Lorem ipsum dolor sit amet, consectetur elit. Nam massa orci, faucibus vitae leo.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row mt-4">
+                          <div class="col-1 mt-lg-4 mt-md-1 mt-4">
+                            <div class="form-check pl-0">
+                              <label class="check-container my-auto payment-check-label">
+                                <input type="checkbox">
+                                <span class="checkmark payment-terms-checkmark"></span>
+                              </label>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <img src="images/random-staff-image.png" alt="">
+                          </div>
+                          <div class="col-lg-8 col-md-12 col-sm-8 col-12">
+                            <div class="row">
+                              <div class="col-12">
+                                <h6>Sales Assistant</h6>
+                                <p>ab CHF 150.00 pro Tag</p>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <p> Lorem ipsum dolor sit amet, consectetur elit. Nam massa orci, faucibus vitae leo.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row mt-4">
+                          <div class="col-1 mt-lg-4 mt-md-1 mt-4">
+                            <div class="form-check pl-0">
+                              <label class="check-container my-auto payment-check-label">
+                                <input type="checkbox">
+                                <span class="checkmark payment-terms-checkmark"></span>
+                              </label>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <img src="images/random-staff-image.png" alt="">
+                          </div>
+                          <div class="col-lg-8 col-md-12 col-sm-8 col-12">
+                            <div class="row">
+                              <div class="col-12">
+                                <h6>Courier</h6>
+                                <p>ab CHF 150.00 pro Tag</p>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <p> Lorem ipsum dolor sit amet, consectetur elit. Nam massa orci, faucibus vitae leo.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card listing-page-accordion-card success-page-accordion-card">
+                    <div class="card-header" id="headingOne">
+                      <h2 class="mb-0">
+                        <button class="custom-accordion-btn listing-page-accordion-btn success-page-accordion-btn law-q-1 btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                          <span class="row success-additional-service-accordion">
+                            <span class="col-1">
+                              <img src="images/furniture-icon.svg" alt="Icon">
+                            </span>
+                            <span class="col-8 my-auto">
+                              <h6>Furniture</h6>
+                              <p>From CHF 89,00</p>
+                            </span>
+                          </span>
+                        </button>
+                      </h2>
+                    </div>
+
+                    <div id="collapseFour" class="collapse success-page-accordion-content-border" aria-labelledby="headingOne" data-parent="#accordionLegal">
+                      <div class="card-body law-a-1">
+                        <div class="row">
+                          <div class="col-1 mt-lg-4 mt-md-1 mt-4">
+                            <div class="form-check pl-0">
+                              <label class="check-container my-auto payment-check-label">
+                                <input type="checkbox">
+                                <span class="checkmark payment-terms-checkmark"></span>
+                              </label>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <img src="images/random-staff-image.png" alt="">
+                          </div>
+                          <div class="col-lg-8 col-md-12 col-sm-8 col-12">
+                            <div class="row">
+                              <div class="col-8">
+                                <h6>Promotor</h6>
+                                <p>ab CHF 150.00 pro Tag</p>
+                              </div>
+                              <div class="col-4">
+                                <img src="images/staff-logo.png" alt="">
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <p> Lorem ipsum dolor sit amet, consectetur elit. Nam massa orci, faucibus vitae leo.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row mt-4">
+                          <div class="col-1 mt-lg-4 mt-md-1 mt-4">
+                            <div class="form-check pl-0">
+                              <label class="check-container my-auto payment-check-label">
+                                <input type="checkbox">
+                                <span class="checkmark payment-terms-checkmark"></span>
+                              </label>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <img src="images/random-staff-image.png" alt="">
+                          </div>
+                          <div class="col-lg-8 col-md-12 col-sm-8 col-12">
+                            <div class="row">
+                              <div class="col-12">
+                                <h6>Sales Assistant</h6>
+                                <p>ab CHF 150.00 pro Tag</p>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <p> Lorem ipsum dolor sit amet, consectetur elit. Nam massa orci, faucibus vitae leo.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row mt-4">
+                          <div class="col-1 mt-lg-4 mt-md-1 mt-4">
+                            <div class="form-check pl-0">
+                              <label class="check-container my-auto payment-check-label">
+                                <input type="checkbox">
+                                <span class="checkmark payment-terms-checkmark"></span>
+                              </label>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <img src="images/random-staff-image.png" alt="">
+                          </div>
+                          <div class="col-lg-8 col-md-12 col-sm-8 col-12">
+                            <div class="row">
+                              <div class="col-12">
+                                <h6>Courier</h6>
+                                <p>ab CHF 150.00 pro Tag</p>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <p> Lorem ipsum dolor sit amet, consectetur elit. Nam massa orci, faucibus vitae leo.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card listing-page-accordion-card success-page-accordion-card">
+                    <div class="card-header" id="headingOne">
+                      <h2 class="mb-0">
+                        <button class="custom-accordion-btn listing-page-accordion-btn success-page-accordion-btn law-q-1 btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                          <span class="row success-additional-service-accordion">
+                            <span class="col-1">
+                              <img src="images/staff-accordion-icon.svg" alt="Icon">
+                            </span>
+                            <span class="col-8 my-auto">
+                              <h6>Staff</h6>
+                              <p>From CHF 89,00</p>
+                            </span>
+                          </span>
+                        </button>
+                      </h2>
+                    </div>
+
+                    <div id="collapseFive" class="collapse success-page-accordion-content-border" aria-labelledby="headingOne" data-parent="#accordionLegal">
+                      <div class="card-body law-a-1">
+                        <div class="row">
+                          <div class="col-1 mt-lg-4 mt-md-1 mt-4">
+                            <div class="form-check pl-0">
+                              <label class="check-container my-auto payment-check-label">
+                                <input type="checkbox">
+                                <span class="checkmark payment-terms-checkmark"></span>
+                              </label>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <img src="images/random-staff-image.png" alt="">
+                          </div>
+                          <div class="col-lg-8 col-md-12 col-sm-8 col-12">
+                            <div class="row">
+                              <div class="col-8">
+                                <h6>Promotor</h6>
+                                <p>ab CHF 150.00 pro Tag</p>
+                              </div>
+                              <div class="col-4">
+                                <img src="images/staff-logo.png" alt="">
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <p> Lorem ipsum dolor sit amet, consectetur elit. Nam massa orci, faucibus vitae leo.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row mt-4">
+                          <div class="col-1 mt-lg-4 mt-md-1 mt-4">
+                            <div class="form-check pl-0">
+                              <label class="check-container my-auto payment-check-label">
+                                <input type="checkbox">
+                                <span class="checkmark payment-terms-checkmark"></span>
+                              </label>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <img src="images/random-staff-image.png" alt="">
+                          </div>
+                          <div class="col-lg-8 col-md-12 col-sm-8 col-12">
+                            <div class="row">
+                              <div class="col-12">
+                                <h6>Sales Assistant</h6>
+                                <p>ab CHF 150.00 pro Tag</p>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <p> Lorem ipsum dolor sit amet, consectetur elit. Nam massa orci, faucibus vitae leo.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row mt-4">
+                          <div class="col-1 mt-lg-4 mt-md-1 mt-4">
+                            <div class="form-check pl-0">
+                              <label class="check-container my-auto payment-check-label">
+                                <input type="checkbox">
+                                <span class="checkmark payment-terms-checkmark"></span>
+                              </label>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <img src="images/random-staff-image.png" alt="">
+                          </div>
+                          <div class="col-lg-8 col-md-12 col-sm-8 col-12">
+                            <div class="row">
+                              <div class="col-12">
+                                <h6>Courier</h6>
+                                <p>ab CHF 150.00 pro Tag</p>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <p> Lorem ipsum dolor sit amet, consectetur elit. Nam massa orci, faucibus vitae leo.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card listing-page-accordion-card success-page-accordion-card">
+                    <div class="card-header" id="headingOne">
+                      <h2 class="mb-0">
+                        <button class="custom-accordion-btn listing-page-accordion-btn success-page-accordion-btn law-q-1 btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                          <span class="row success-additional-service-accordion">
+                            <span class="col-1">
+                              <img src="images/design-services-icon.svg" alt="Icon">
+                            </span>
+                            <span class="col-8 my-auto">
+                              <h6>Design services</h6>
+                              <p>From CHF 89,00</p>
+                            </span>
+                          </span>
+                        </button>
+                      </h2>
+                    </div>
+
+                    <div id="collapseSix" class="collapse success-page-accordion-content-border" aria-labelledby="headingOne" data-parent="#accordionLegal">
+                      <div class="card-body law-a-1">
+                        <div class="row">
+                          <div class="col-1 mt-lg-4 mt-md-1 mt-4">
+                            <div class="form-check pl-0">
+                              <label class="check-container my-auto payment-check-label">
+                                <input type="checkbox">
+                                <span class="checkmark payment-terms-checkmark"></span>
+                              </label>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <img src="images/random-staff-image.png" alt="">
+                          </div>
+                          <div class="col-lg-8 col-md-12 col-sm-8 col-12">
+                            <div class="row">
+                              <div class="col-8">
+                                <h6>Promotor</h6>
+                                <p>ab CHF 150.00 pro Tag</p>
+                              </div>
+                              <div class="col-4">
+                                <img src="images/staff-logo.png" alt="">
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <p> Lorem ipsum dolor sit amet, consectetur elit. Nam massa orci, faucibus vitae leo.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row mt-4">
+                          <div class="col-1 mt-lg-4 mt-md-1 mt-4">
+                            <div class="form-check pl-0">
+                              <label class="check-container my-auto payment-check-label">
+                                <input type="checkbox">
+                                <span class="checkmark payment-terms-checkmark"></span>
+                              </label>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <img src="images/random-staff-image.png" alt="">
+                          </div>
+                          <div class="col-lg-8 col-md-12 col-sm-8 col-12">
+                            <div class="row">
+                              <div class="col-12">
+                                <h6>Sales Assistant</h6>
+                                <p>ab CHF 150.00 pro Tag</p>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <p> Lorem ipsum dolor sit amet, consectetur elit. Nam massa orci, faucibus vitae leo.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row mt-4">
+                          <div class="col-1 mt-lg-4 mt-md-1 mt-4">
+                            <div class="form-check pl-0">
+                              <label class="check-container my-auto payment-check-label">
+                                <input type="checkbox">
+                                <span class="checkmark payment-terms-checkmark"></span>
+                              </label>
+                            </div>
+                          </div>
+                          <div class="col-3">
+                            <img src="images/random-staff-image.png" alt="">
+                          </div>
+                          <div class="col-lg-8 col-md-12 col-sm-8 col-12">
+                            <div class="row">
+                              <div class="col-12">
+                                <h6>Courier</h6>
+                                <p>ab CHF 150.00 pro Tag</p>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <p> Lorem ipsum dolor sit amet, consectetur elit. Nam massa orci, faucibus vitae leo.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mt-4">
+                    <div class="col-12 text-right">
+                      <a type="submit" class="get-started-btn booking-page-form-btn" data-toggle="modal" data-target="#additionalInquireModal">Inquire</a>
+                    </div>
+                  </div>
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+    <!-- Footer Section Starts Here -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg col-md-4 col-6">
+            <div class="footer-first-column">
+              <svg width="257" height="25" viewBox="0 0 257 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H8.67102C10.4689 0 12.0664 0.174502 13.4658 0.523063C14.8653 0.871625 16.043 1.38317 16.9997 2.05815C17.9555 2.73313 18.6832 3.55692 19.1842 4.52952C19.6839 5.50213 19.9353 6.61248 19.9353 7.86057C19.9353 9.07499 19.6507 10.1601 19.0821 11.1163C18.513 12.0721 17.7337 12.8848 16.7438 13.5536C15.7539 14.2232 14.596 14.7344 13.2709 15.0891C11.9454 15.443 10.5258 15.6202 9.01293 15.6202H7.54446V23.75H0V0ZM9.04501 10.8294C10.25 10.8294 11.1955 10.5818 11.8771 10.0871C12.5596 9.59234 12.901 8.85004 12.901 7.8606C12.901 7.37696 12.8011 6.95532 12.6021 6.59568C12.4041 6.23561 12.1298 5.93532 11.783 5.69306C11.4366 5.45168 11.0293 5.26876 10.5628 5.14519C10.0958 5.02162 9.58992 4.95962 9.04367 4.95962H7.54069V10.7616C7.69977 10.7842 7.90501 10.801 8.15506 10.8121C8.40779 10.8236 8.70355 10.8294 9.04501 10.8294ZM21.1812 12.5252C21.1812 9.06961 22.3043 6.15752 24.5518 3.78983C26.9493 1.26328 30.1921 0 34.2806 0C36.2727 0 38.0736 0.314145 39.6838 0.943329C41.2936 1.57162 42.6661 2.44132 43.801 3.55199C44.936 4.6622 45.8104 5.98527 46.4244 7.5203C47.0384 9.05578 47.3463 10.7242 47.3463 12.5257C47.3463 13.6136 47.2186 14.6783 46.9631 15.7207C46.7081 16.7631 46.3291 17.7461 45.8259 18.6689C45.3223 19.5926 44.6983 20.4427 43.9575 21.2182C43.2163 21.9946 42.3619 22.6631 41.3948 23.2236C40.4287 23.7849 39.3517 24.2209 38.1634 24.5328C36.9761 24.8438 35.6829 25 34.2806 25C32.8456 25 31.5268 24.842 30.3281 24.5252C29.1293 24.2084 28.0436 23.7671 27.0707 23.1995C26.0977 22.6319 25.2438 21.9589 24.508 21.1772C23.7722 20.3954 23.1587 19.5431 22.6665 18.6207C22.1738 17.6975 21.8034 16.7193 21.5544 15.689C21.3053 14.6555 21.1812 13.6015 21.1812 12.5252ZM34.2809 18.6774C35.1954 18.6774 35.9746 18.4873 36.6177 18.1084C37.2609 17.7291 37.7873 17.2414 38.1988 16.647C38.6098 16.0517 38.9117 15.3864 39.102 14.6497C39.2922 13.913 39.3884 13.1936 39.3884 12.4913C39.3884 11.5734 39.2694 10.7327 39.0322 9.96741C38.7945 9.20302 38.4529 8.53992 38.0072 7.97946C37.5611 7.4181 37.0228 6.97366 36.3915 6.64523C35.7602 6.31681 35.0563 6.13519 34.2809 6.10128C33.354 6.12404 32.5666 6.32796 31.918 6.71306C31.2693 7.09815 30.7393 7.59436 30.3283 8.19989C29.9182 8.80632 29.6158 9.48637 29.4255 10.2392C29.2344 10.9928 29.1391 11.7434 29.1391 12.4913C29.1391 13.3748 29.2577 14.1936 29.4944 14.9473C29.7321 15.7006 30.0742 16.3521 30.5194 16.9014C30.966 17.4511 31.507 17.8844 32.1447 18.2017C32.7806 18.5189 33.4931 18.6774 34.2809 18.6774ZM59.755 0H51.084V23.75H58.6302V15.6202H60.0969C61.6097 15.6202 63.0294 15.443 64.3549 15.0891C65.68 14.7344 66.8379 14.2232 67.8278 13.5536C68.8177 12.8848 69.5969 12.0721 70.166 11.1163C70.7347 10.1601 71.0193 9.07499 71.0193 7.86057C71.0193 6.61248 70.7688 5.50213 70.2682 4.52952C69.7672 3.55692 69.0395 2.73313 68.0837 2.05815C67.1278 1.38317 65.9502 0.871625 64.5507 0.523063C63.1513 0.174502 61.5528 0 59.755 0ZM62.9628 10.0871C62.2803 10.5818 61.3357 10.8294 60.1298 10.8294C59.7883 10.8294 59.4921 10.8236 59.2399 10.8121C58.9898 10.801 58.7846 10.7842 58.6255 10.7616V4.95962H60.1285C60.6747 4.95962 61.1806 5.02162 61.6476 5.14519C62.1141 5.26876 62.5214 5.45168 62.8687 5.69306C63.2146 5.93532 63.4889 6.23561 63.6878 6.59568C63.8859 6.95532 63.9867 7.37696 63.9867 7.8606C63.9867 8.85004 63.6444 9.59234 62.9628 10.0871ZM95.7903 17.4919C95.1156 18.2148 94.126 18.5763 92.8226 18.5763C90.1697 18.5763 88.8431 17.1523 88.8453 14.3056V0H80.9871V14.3065C80.9871 17.7093 82.1946 20.3714 84.6095 22.2928C86.8546 24.0979 89.5928 25 92.8239 25C93.7639 25 94.711 24.9107 95.663 24.7311C96.6146 24.5524 97.5309 24.2743 98.4097 23.8978C99.288 23.5213 100.107 23.044 100.867 22.4651C101.627 21.8862 102.287 21.2006 102.848 20.4074C103.41 19.6152 103.852 18.7122 104.176 17.6993C104.499 16.6873 104.66 15.5555 104.66 14.3056V0H96.8021V14.3065C96.8021 15.7068 96.4646 16.7689 95.7903 17.4919ZM118.314 0H109.645V23.75H117.189V15.6202H118.657C120.17 15.6202 121.59 15.443 122.915 15.0891C124.24 14.7344 125.398 14.2232 126.388 13.5536C127.378 12.8848 128.157 12.0721 128.726 11.1163C129.294 10.1601 129.58 9.07499 129.58 7.86057C129.58 6.61248 129.328 5.50213 128.828 4.52952C128.327 3.55692 127.599 2.73313 126.643 2.05815C125.687 1.38317 124.51 0.871625 123.11 0.523063C121.711 0.174502 120.113 0 118.314 0ZM121.522 10.0871C120.839 10.5818 119.895 10.8294 118.689 10.8294C118.348 10.8294 118.052 10.8236 117.8 10.8121C117.55 10.801 117.344 10.7842 117.186 10.7616V4.95962H118.688C119.235 4.95962 119.741 5.02162 120.208 5.14519C120.674 5.26876 121.081 5.45168 121.428 5.69306C121.775 5.93532 122.048 6.23561 122.247 6.59568C122.446 6.95532 122.546 7.37696 122.546 7.8606C122.546 8.85004 122.204 9.59234 121.522 10.0871ZM155.079 20.3552C155.522 19.3086 155.744 18.0707 155.744 16.6442C155.744 14.708 154.94 13.0608 153.333 11.7016C151.726 10.3428 149.363 9.30694 146.243 8.59346C144.977 8.21977 144.344 7.67663 144.344 6.96315C144.344 6.48779 144.482 6.17341 144.758 6.02091C145.033 5.86751 145.431 5.79125 145.95 5.79125C146.03 5.79125 146.115 5.79437 146.2 5.79973C146.286 5.80597 146.393 5.80864 146.52 5.80864H147.107C147.361 5.80864 147.602 5.81979 147.833 5.84253C148.063 5.86528 148.375 5.91656 148.766 5.99549C149.157 6.07442 149.678 6.1966 150.329 6.3607C150.98 6.5248 151.864 6.74821 152.981 7.03138L154.879 1.8341C152.3 0.611366 149.513 0 146.519 0C140.21 0 137.055 2.58147 137.055 7.74441C137.055 8.65009 137.199 9.47996 137.487 10.2327C137.773 10.9854 138.174 11.6592 138.686 12.2532C139.198 12.848 139.807 13.36 140.509 13.7903C141.211 14.2206 141.971 14.56 142.788 14.8092C143.375 15.013 144.009 15.2025 144.688 15.3778C145.367 15.5535 145.992 15.7488 146.562 15.9637C147.132 16.1791 147.607 16.4226 147.988 16.6942C148.368 16.9657 148.558 17.2997 148.558 17.6962C148.558 18.0244 148.473 18.2839 148.306 18.477C148.141 18.6687 147.918 18.8163 147.641 18.9184C147.366 19.0206 147.047 19.0857 146.683 19.1138C146.32 19.1436 145.943 19.1566 145.553 19.1566C145.311 19.1566 145.028 19.1352 144.706 19.0897C144.384 19.0446 144.044 18.9916 143.687 18.9287C143.331 18.8658 142.974 18.7954 142.617 18.716C142.26 18.6357 141.927 18.5622 141.615 18.4948L139.024 17.867C138.955 18.0369 138.886 18.2406 138.817 18.4783C138.415 19.9048 137.863 21.479 137.159 23.1998C139.704 24.3998 142.664 25 146.036 25C147.557 25 148.919 24.8301 150.121 24.4894C151.325 24.151 152.342 23.6386 153.171 22.9532C154 22.2687 154.635 21.4027 155.079 20.3552ZM160.728 0H168.748V9.44597H176.348V0H184.401V23.75H176.348V14.4387H168.748V23.7496H160.728V0ZM185.647 12.5252C185.647 9.06961 186.771 6.15752 189.019 3.78983C191.416 1.26328 194.659 0 198.748 0C200.738 0 202.54 0.314145 204.151 0.943329C205.761 1.57162 207.133 2.44132 208.268 3.55199C209.402 4.6622 210.277 5.98527 210.891 7.5203C211.505 9.05578 211.812 10.7242 211.812 12.5257C211.812 13.6136 211.685 14.6783 211.43 15.7207C211.175 16.7631 210.796 17.7461 210.292 18.6689C209.788 19.5926 209.166 20.4427 208.425 21.2182C207.683 21.9946 206.829 22.6631 205.862 23.2236C204.895 23.7849 203.818 24.2209 202.631 24.5328C201.443 24.8438 200.149 25 198.748 25C197.312 25 195.994 24.842 194.795 24.5252C193.597 24.2079 192.511 23.7671 191.537 23.1995C190.564 22.6323 189.709 21.9589 188.975 21.1772C188.24 20.3954 187.626 19.5431 187.134 18.6207C186.641 17.6975 186.27 16.7193 186.022 15.689C185.773 14.6555 185.647 13.6015 185.647 12.5252ZM198.748 18.6774C199.662 18.6774 200.442 18.4873 201.084 18.1084C201.726 17.7287 202.253 17.2414 202.666 16.647C203.075 16.0517 203.378 15.3864 203.568 14.6497C203.759 13.9134 203.855 13.1936 203.855 12.4913C203.855 11.5734 203.736 10.7327 203.5 9.96741C203.262 9.20302 202.92 8.53992 202.474 7.97946C202.028 7.4181 201.49 6.97366 200.859 6.64523C200.227 6.31681 199.524 6.13519 198.748 6.10128C197.821 6.12404 197.034 6.32796 196.384 6.71306C195.735 7.09815 195.206 7.59436 194.796 8.19989C194.385 8.80632 194.083 9.48637 193.892 10.2392C193.702 10.9928 193.606 11.7434 193.606 12.4913C193.606 13.3748 193.725 14.1936 193.962 14.9473C194.199 15.7006 194.541 16.3521 194.987 16.9014C195.433 17.4511 195.974 17.8844 196.611 18.2017C197.248 18.5189 197.959 18.6774 198.748 18.6774ZM224.22 0H215.55L215.551 23.75H223.095V15.6202H224.563C226.075 15.6202 227.495 15.443 228.821 15.0891C230.146 14.7344 231.304 14.2232 232.294 13.5536C233.284 12.8848 234.063 12.0721 234.632 11.1163C235.2 10.1601 235.485 9.07499 235.485 7.86057C235.485 6.61248 235.234 5.50213 234.733 4.52952C234.233 3.55692 233.506 2.73313 232.549 2.05815C231.593 1.38317 230.415 0.871625 229.016 0.523063C227.617 0.174502 226.019 0 224.22 0ZM227.428 10.0871C226.747 10.5818 225.801 10.8294 224.595 10.8294C224.255 10.8294 223.957 10.8236 223.706 10.8121C223.456 10.801 223.25 10.7842 223.092 10.7616V4.95962H224.594C225.141 4.95962 225.647 5.02162 226.114 5.14519C226.58 5.26876 226.988 5.45168 227.334 5.69306C227.681 5.93532 227.955 6.23561 228.153 6.59568C228.352 6.95532 228.452 7.37696 228.452 7.8606C228.452 8.85004 228.111 9.59234 227.428 10.0871ZM256.002 20.3552C256.446 19.3086 256.667 18.0707 256.667 16.6442C256.667 14.708 255.864 13.0608 254.256 11.7016C252.65 10.3428 250.286 9.30694 247.166 8.59346C245.9 8.21977 245.267 7.67663 245.267 6.96315C245.267 6.48779 245.405 6.17341 245.681 6.02091C245.957 5.86751 246.355 5.79125 246.873 5.79125C246.954 5.79125 247.038 5.79437 247.124 5.79973C247.209 5.80597 247.316 5.80864 247.443 5.80864H248.03C248.284 5.80864 248.525 5.81979 248.757 5.84253C248.987 5.86528 249.298 5.91611 249.69 5.99549C250.08 6.07442 250.601 6.1966 251.252 6.3607C251.903 6.5248 252.787 6.74821 253.904 7.03138L255.801 1.8341C253.221 0.611366 250.435 0 247.442 0C241.132 0 237.977 2.58147 237.977 7.74441C237.977 8.65009 238.122 9.47996 238.409 10.2327C238.696 10.9854 239.096 11.6592 239.609 12.2532C240.122 12.848 240.729 13.36 241.432 13.7903C242.134 14.2206 242.892 14.56 243.711 14.8092C244.298 15.013 244.931 15.2025 245.611 15.3778C246.29 15.5535 246.915 15.7488 247.484 15.9637C248.055 16.1791 248.53 16.4226 248.91 16.6942C249.29 16.9657 249.48 17.2997 249.48 17.6962C249.48 18.0244 249.396 18.2839 249.23 18.477C249.063 18.6687 248.84 18.8163 248.564 18.9184C248.289 19.0206 247.969 19.0857 247.607 19.1138C247.243 19.1436 246.866 19.1566 246.475 19.1566C246.234 19.1566 245.952 19.1347 245.629 19.0897C245.307 19.0446 244.967 18.9916 244.61 18.9287C244.253 18.8658 243.896 18.7954 243.54 18.716C243.184 18.6357 242.85 18.5622 242.539 18.4948L239.947 17.867C239.879 18.0369 239.809 18.2406 239.74 18.4783C239.338 19.9048 238.785 21.479 238.083 23.1998C240.626 24.3998 243.586 25 246.96 25C248.48 25 249.842 24.8301 251.044 24.4894C252.248 24.151 253.264 23.6386 254.093 22.9532C254.922 22.2687 255.558 21.4027 256.002 20.3552Z" fill="white"/>
+</svg>
+
+              <div class="footer-select-wrapper">
+                <select class="selectpicker custom-footer-select">
+                    <option value="">ENG</option>
+                    <option value="">SPA</option>
+                    <option value="">FRA</option>
+                </select>
+                <select class="selectpicker custom-footer-select">
+                    <option value="">CHF</option>
+                    <option value="">DHF</option>
+                    <option value="">EHF</option>
+                </select>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-lg col-md-4 col-6">
+            <div class="footer-link-header">
+              <h5>COMPANY</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg col-md-4 col-6 mt-md-0 mt-4">
+            <div class="footer-link-header">
+              <h5>HOW IT WORKS</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">Find a space</a></li>
+                <li><a href="#">List a space</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Customer support</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg col-md-4 col-6 mt-lg-0 mt-4">
+            <div class="footer-link-header">
+              <h5>LEGALS</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Booking Terms</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg col-md-4 col-6 mt-lg-0 mt-4">
+            <div class="footer-link-header footer-social-icon">
+              <h5>CONNECT</h5>
+              <ul class="list-inline">
+                <li class="list-inline-item"><a href="#"><img src="images/logo-fb-simple.svg" class="img-fluid" alt="Facebook"></a></li>
+                <li class="list-inline-item"><a href="#"><img src="images/logo-instagram.svg" class="img-fluid" alt="Instagram"></a></li>
+                <li class="list-inline-item"><a href="#"><img src="images/logo-twitter.svg" class="img-fluid" alt="Twitter"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="copyright-text-footer">
+              <hr>
+              <p>© Copyright by Pop Up Shops 2020</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section Ends Here -->
+
+    <!-- Coupon Code Modal Section Starts Here -->
+
+    <div class="modal fade" id="applyCouponhModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content save-search-modal-content">
+          <div class="modal-header save-search-modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true"><span class="icon-close-light"></span></span>
+            </button>
+          </div>
+          <div class="modal-body save-search-modal-body apply-coupon-modal-body text-center">
+            <h3>Apply promo code</h3>
+            <h6>Please enter your code below</h6>
+            <form>
+              <div class="form-group text-left">
+                <label>YOUR CODE</label>
+                <input type="text" class="form-control" placeholder="e.g. 42932E8G">
+              </div>
+              <button type="submit" class="btn btn-block save-search-float-btn mt-5" style="font-size: 14px;" data-toggle="modal" data-target="#successCouponhModal" data-dismiss="modal">Apply Code</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Coupon Code Modal Section Ends Here -->
+
+    <!-- Successful Coupon Code Modal Section Starts Here -->
+
+    <div class="modal fade" id="successCouponhModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content save-search-modal-content">
+          <div class="modal-header save-search-modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true"><span class="icon-close-light"></span></span>
+            </button>
+          </div>
+          <div class="modal-body save-search-modal-body apply-coupon-modal-body text-center">
+            <span class="icon-checkmark-alt success-modal-mark"></span>
+            <h3 class="mt-5">Code has been applied!</h3>
+            <h6>Go back to your Booking Request</h6>
+            <button class="btn btn-block save-search-float-btn mt-5" style="font-size: 14px;" data-toggle="modal" data-target="#failureCouponhModal" data-dismiss="modal" aria-label="Close">Go back</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Successful Coupon Code Modal Section Ends Here -->
+
+    <!-- Successful Coupon Code Modal Section Starts Here -->
+
+    <div class="modal fade" id="failureCouponhModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content save-search-modal-content">
+          <div class="modal-header save-search-modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true"><span class="icon-close-light"></span></span>
+            </button>
+          </div>
+          <div class="modal-body save-search-modal-body apply-coupon-modal-body text-center">
+            <span class="icon-close failure-modal-mark"></span>
+            <h3 class="mt-5">Code is not correct</h3>
+            <h6>Please try again.</h6>
+            <button class="btn btn-block save-search-float-btn mt-5" style="font-size: 14px;" data-dismiss="modal" data-toggle="modal" data-target="#applyCouponhModal" aria-label="Close">Try again</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Successful Coupon Code Modal Section Ends Here -->
+
+        <!-- Success Page Additional Service Modal Section Starts Here -->
+
+    <div class="modal fade" id="additionalInquireModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered additional-services-modal-dialogue" role="document">
+        <div class="modal-content save-search-modal-content">
+          <div class="modal-header save-search-modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true"><span class="icon-close-light"></span></span>
+            </button>
+          </div>
+          <div class="modal-body save-search-modal-body apply-coupon-modal-body">
+            <h3 class="mt-1 text-left">Inquire for additional services</h3>
+            <div class="inquire-modal-service-box mt-5">
+              <div class="row">
+                <div class="col-sm-2 col-3">
+                  <img src="images/additional-modal-staff-image.png" alt="">
+                </div>
+                <div class="col-sm-3 col-9 my-auto">
+                  <p>Staff / ADIA</p>
+                  <h6>Promoter</h6>
+                </div>
+                <div class="col-sm-5 col-8 my-auto">
+                  <p>From CHF 150.00 per day</p>
+                </div>
+                <div class="col-sm-2 col-4 my-auto">
+                  <p><a href="#"><img src="images/pencil-icon.svg" alt=""></a> <span class="d-lg-block d-none">&nbsp;&nbsp;</span> <a href="#"><img src="images/cancel-round-icon.svg" alt=""></a></p>
+                </div>
+              </div>
+            </div>
+            <form action="#" class="booking-page-form mt-4">
+              <div class="form-group">
+                <label>WHAT QUESTIONS DO YOU HAVE REGARDING STAFF?</label>
+                <textarea class="form-control" cols="30" rows="8" placeholder="Enter a description"></textarea>
+              </div>
+              <div class="form-group text-center">
+                <button class="btn save-search-float-btn mt-2" style="font-size: 14px;" data-toggle="modal" data-target="#successInquiryModal" data-dismiss="modal" aria-label="Close">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Success Page Additional Service Modal Section Ends Here -->
+
+    <!-- Successful Coupon Code Modal Section Starts Here -->
+
+    <div class="modal fade" id="successInquiryModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content save-search-modal-content">
+          <div class="modal-header save-search-modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true"><span class="icon-close-light"></span></span>
+            </button>
+          </div>
+          <div class="modal-body save-search-modal-body apply-coupon-modal-body text-center">
+            <span class="icon-checkmark-alt success-modal-mark"></span>
+            <h3 class="mt-5">Inquiry sent!</h3>
+            <h6>Go back to your Booking Request</h6>
+            <button class="btn btn-block save-search-float-btn mt-5" style="font-size: 14px;" data-dismiss="modal" aria-label="Close">Schedule a call with ADIA?</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Successful Coupon Code Modal Section Ends Here -->
+
+
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="https://kit.fontawesome.com/948955ccc5.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+    <script src="js/chartkick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery.fileupload.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      $('.city-details-places').slick({
+        dots: false,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        arrows: true,
+        prevArrow:"<button type='button' class='slick-prev pull-left'><span class='icon-chevron-left' aria-hidden='true'></span></button>",
+        nextArrow:"<button type='button' class='slick-next pull-right'><span class='icon-chevron-right' aria-hidden='true'></span></button>",
+        responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true
+              }
+            },
+            {
+              breakpoint: 800,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+          ]
+        });
+
+      $('.areas-details-places').slick({
+        dots: false,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        arrows: true,
+        prevArrow:"<button type='button' class='slick-prev pull-left'><span class='icon-chevron-left' aria-hidden='true'></span></button>",
+        nextArrow:"<button type='button' class='slick-next pull-right'><span class='icon-chevron-right' aria-hidden='true'></span></button>",
+        responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true
+              }
+            },
+            {
+              breakpoint: 800,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+            }
+          },
+            {
+              breakpoint: 430,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+          }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+          ]
+        });
+
+    ///////////////// fixed menu on scroll for desktop
+    if ($(window).width() > 992) {
+      $(window).scroll(function(){  
+         if ($(this).scrollTop() > 900) {
+            $('.city-page-nav-section').addClass("fixed-top");
+            // add padding top to show content behind navbar
+            $('body').css('padding-top', $('.navbar').outerHeight() + 'px');
+          }else{
+            $('.city-page-nav-section').removeClass("fixed-top");
+             // remove padding top from body
+            $('body').css('padding-top', '0');
+          }   
+      });
+    } // end if
+
+    ///////////////// fixed menu on scroll for desktop
+    if ($(window).width() > 320) {
+      $(window).scroll(function(){  
+         if ($(this).scrollTop() > 600) {
+            $('.city-page-nav-section').addClass("fixed-top");
+            // add padding top to show content behind navbar
+            $('body').css('padding-top', $('.navbar').outerHeight() + 'px');
+          }else{
+            $('.city-page-nav-section').removeClass("fixed-top");
+             // remove padding top from body
+            $('body').css('padding-top', '0');
+          }   
+      });
+    } // end if
+
+      $('.brand-content-scroll').slick({
+        dots: false,
+        arrows: false,
+        infinite: false,
+        slidesToShow: 3,
+        centerPadding: '50px',
+        swipeToSlide: true,
+        adaptiveHeight: true,
+        slidesToScroll: 1
+        });
+
+      $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox({
+                  alwaysShowClose: false,
+
+                });
+            });
+
+
+    $(document).ready(function(){
+      $("#spaceFeaturesCollapse").on("hide.bs.collapse", function(){
+        $(".feature-collapse-button").html('Show more features');
+      });
+      $("#spaceFeaturesCollapse").on("show.bs.collapse", function(){
+        $(".feature-collapse-button").html('Show less features');
+      });
+    });
+
+    $(document).ready(function(){
+      $("#collapseBookingTable").on("hide.bs.collapse", function(){
+        $(".listing-booking-collapse-btn").html('Total (3 days) <span class="float-right mt-2">&pound;1,493 &nbsp;<span class="icon-chevron-down mt-1"></span></span>');
+      });
+      $("#collapseBookingTable").on("show.bs.collapse", function(){
+        $(".listing-booking-collapse-btn").html('Hide breakdown <span class="icon-chevron-up float-right mt-2" style="  font-weight: 300;font-size: 10px;color: #9AA09E;"></span>');
+      });
+    });
+
+
+
+
+    $("[data-toggle=popover]").popover({
+    html: true, 
+    content: function() {
+          return $('.listing-page-popover-content').html();
+        }
+    });
+
+
+    mapboxgl.accessToken = 'pk.eyJ1IjoiYXNoaXExODAiLCJhIjoiY2tneHFzZjI1MGU5YzJzb3NwMWkzbDc1eiJ9.4e_vI2F25HEP4d5o3tNjGA';
+    var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/ashiq180/ckgxr7bk92ew31ar5o8k9hfdh',
+    interactive: false
+    });
+    map.scrollZoom.disable();
+
+
+
+
+
+    $( document ).ready(function() {
+    function c(passed_month, passed_year, calNum) {
+      var calendar = calNum == 0 ? calendars.cal1 : calendars.cal2;
+      makeWeek(calendar.weekline);
+      calendar.datesBody.empty();
+      var calMonthArray = makeMonthArray(passed_month, passed_year);
+      var r = 0;
+      var u = false;
+      while(!u) {
+        if(daysArray[r] == calMonthArray[0].weekday) { u = true } 
+        else { 
+          calendar.datesBody.append('<div class="blank"></div>');
+          r++;
+        }
+      } 
+      for(var cell=0;cell<42-r;cell++) { // 42 date-cells in calendar
+        if(cell >= calMonthArray.length) {
+          calendar.datesBody.append('<div class="blank"></div>');
+        } else {
+          var shownDate = calMonthArray[cell].day;
+          // Later refactiroing -- iter_date not needed after "today" is found
+          var iter_date = new Date(passed_year,passed_month,shownDate); 
+          if ( 
+            (
+              ( shownDate != today.getDate() && passed_month == today.getMonth() ) 
+              || passed_month != today.getMonth()
+            ) 
+              && iter_date < today) {           
+            var m = '<div class="past-date">';
+          } else {
+            var m = checkToday(iter_date)?'<div class="today">':"<div>";
+          }
+          calendar.datesBody.append(m + shownDate + "</div>");
+        }
+      }
+
+      // var color = o[passed_month];
+      calendar.calHeader.find("h2").text(i[passed_month]+" "+passed_year);
+            //.css("background-color",color)
+            //.find("h2").text(i[passed_month]+" "+year);
+
+      // find elements (dates) to be clicked on each time
+      // the calendar is generated
+      
+      //clickedElement = bothCals.find(".calendar_content").find("div");
+      var clicked = false;
+      selectDates(selected);
+
+      clickedElement = calendar.datesBody.find('div');
+      clickedElement.on("click", function(){
+        clicked = $(this);
+        if (clicked.hasClass('past-date')) { return; }
+        var whichCalendar = calendar.name;
+        console.log(whichCalendar);
+        // Understading which element was clicked;
+        // var parentClass = $(this).parent().parent().attr('class');
+        if (firstClick && secondClick) {
+          thirdClicked = getClickedInfo(clicked, calendar);
+          var firstClickDateObj = new Date(firstClicked.year, 
+                        firstClicked.month, 
+                        firstClicked.date);
+          var secondClickDateObj = new Date(secondClicked.year, 
+                        secondClicked.month, 
+                        secondClicked.date);
+          var thirdClickDateObj = new Date(thirdClicked.year, 
+                        thirdClicked.month, 
+                        thirdClicked.date);
+          if (secondClickDateObj > thirdClickDateObj
+            && thirdClickDateObj > firstClickDateObj) {
+            secondClicked = thirdClicked;
+            // then choose dates again from the start :)
+            bothCals.find(".calendar_content").find("div").each(function(){
+              $(this).removeClass("selected");
+            });
+            selected = {};
+            selected[firstClicked.year] = {};
+            selected[firstClicked.year][firstClicked.month] = [firstClicked.date];
+            selected = addChosenDates(firstClicked, secondClicked, selected);
+          } else { // reset clicks
+            selected = {};
+            firstClicked = [];
+            secondClicked = [];
+            firstClick = false;
+            secondClick = false;
+            bothCals.find(".calendar_content").find("div").each(function(){
+              $(this).removeClass("selected");
+            }); 
+          }
+        }
+        if (!firstClick) {
+          firstClick = true;
+          firstClicked = getClickedInfo(clicked, calendar);
+          selected[firstClicked.year] = {};
+          selected[firstClicked.year][firstClicked.month] = [firstClicked.date];
+        } else {
+          console.log('second click');
+          secondClick = true;
+          secondClicked = getClickedInfo(clicked, calendar);
+          //console.log(secondClicked);
+
+          // what if second clicked date is before the first clicked?
+          var firstClickDateObj = new Date(firstClicked.year, 
+                        firstClicked.month, 
+                        firstClicked.date);
+          var secondClickDateObj = new Date(secondClicked.year, 
+                        secondClicked.month, 
+                        secondClicked.date);
+
+          if (firstClickDateObj > secondClickDateObj) {
+
+            var cachedClickedInfo = secondClicked;
+            secondClicked = firstClicked;
+            firstClicked = cachedClickedInfo;
+            selected = {};
+            selected[firstClicked.year] = {};
+            selected[firstClicked.year][firstClicked.month] = [firstClicked.date];
+
+          } else if (firstClickDateObj.getTime() ==
+                secondClickDateObj.getTime()) {
+            selected = {};
+            firstClicked = [];
+            secondClicked = [];
+            firstClick = false;
+            secondClick = false;
+            $(this).removeClass("selected");
+          }
+
+
+          // add between dates to [selected]
+          selected = addChosenDates(firstClicked, secondClicked, selected);
+        }
+        // console.log(selected);
+        selectDates(selected);
+      });     
+
+    }
+    function selectDates(selected) {
+      if (!$.isEmptyObject(selected)) {
+        var dateElements1 = datesBody1.find('div');
+        var dateElements2 = datesBody2.find('div');
+
+        function highlightDates(passed_year, passed_month, dateElements){
+          if (passed_year in selected && passed_month in selected[passed_year]) {
+            var daysToCompare = selected[passed_year][passed_month];
+            // console.log(daysToCompare);
+            for (var d in daysToCompare) {
+              dateElements.each(function(index) {
+                if (parseInt($(this).text()) == daysToCompare[d]) {
+                  $(this).addClass('selected');
+                }
+              }); 
+            }
+            
+          }
+        }
+
+        highlightDates(year, month, dateElements1);
+        highlightDates(nextYear, nextMonth, dateElements2);
+      }
+    }
+
+    function makeMonthArray(passed_month, passed_year) { // creates Array specifying dates and weekdays
+      var e=[];
+      for(var r=1;r<getDaysInMonth(passed_year, passed_month)+1;r++) {
+        e.push({day: r,
+            // Later refactor -- weekday needed only for first week
+            weekday: daysArray[getWeekdayNum(passed_year,passed_month,r)]
+          });
+      }
+      return e;
+    }
+    function makeWeek(week) {
+      week.empty();
+      for(var e=0;e<7;e++) { 
+        week.append("<div>"+daysArray[e].substring(0,3)+"</div>") 
+      }
+    }
+
+    function getDaysInMonth(currentYear,currentMon) {
+      return(new Date(currentYear,currentMon+1,0)).getDate();
+    }
+    function getWeekdayNum(e,t,n) {
+      return(new Date(e,t,n)).getDay();
+    }
+    function checkToday(e) {
+      var todayDate = today.getFullYear()+'/'+(today.getMonth()+1)+'/'+today.getDate();
+      var checkingDate = e.getFullYear()+'/'+(e.getMonth()+1)+'/'+e.getDate();
+      return todayDate==checkingDate;
+
+    }
+    function getAdjacentMonth(curr_month, curr_year, direction) {
+      var theNextMonth;
+      var theNextYear;
+      if (direction == "next") {
+        theNextMonth = (curr_month + 1) % 12;
+        theNextYear = (curr_month == 11) ? curr_year + 1 : curr_year;
+      } else {
+        theNextMonth = (curr_month == 0) ? 11 : curr_month - 1;
+        theNextYear = (curr_month == 0) ? curr_year - 1 : curr_year;
+      }
+      return [theNextMonth, theNextYear];
+    }
+    function b() {
+      today = new Date;
+      year = today.getFullYear();
+      month = today.getMonth();
+      var nextDates = getAdjacentMonth(month, year, "next");
+      nextMonth = nextDates[0];
+      nextYear = nextDates[1];
+    }
+
+    var e=480;
+
+    var today;
+    var year,
+      month,
+      nextMonth,
+      nextYear;
+
+    //var t=2013;
+    //var n=9;
+    var r = [];
+    var i = ["January","February","March","April","May",
+        "June","July","August","September","October",
+        "November","December"];
+    var daysArray = ["Monday","Tuesday",
+            "Wednesday","Thursday","Friday","Saturday","Sunday"];
+    var o = ["#16a085","#1abc9c","#c0392b","#27ae60",
+        "#FF6860","#f39c12","#f1c40f","#e67e22",
+        "#2ecc71","#e74c3c","#d35400","#2c3e50"];
+    
+    var cal1=$("#calendar_first");
+    var calHeader1=cal1.find(".calendar_header");
+    var weekline1=cal1.find(".calendar_weekdays");
+    var datesBody1=cal1.find(".calendar_content");
+
+    var cal2=$("#calendar_second");
+    var calHeader2=cal2.find(".calendar_header");
+    var weekline2=cal2.find(".calendar_weekdays");
+    var datesBody2=cal2.find(".calendar_content");
+
+    var bothCals = $(".calendar");
+
+    var switchButton = bothCals.find(".calendar_header").find('.switch-month');
+
+    var calendars = { 
+            "cal1": {   "name": "first",
+                  "calHeader": calHeader1,
+                  "weekline": weekline1,
+                  "datesBody": datesBody1 },
+            "cal2": {   "name": "second",
+                  "calHeader": calHeader2,
+                  "weekline": weekline2,
+                  "datesBody": datesBody2 }
+            }
+    
+
+    var clickedElement;
+    var firstClicked,
+      secondClicked,
+      thirdClicked;
+    var firstClick = false;
+    var secondClick = false;  
+    var selected = {};
+
+    b();
+    c(month, year, 0);
+    c(nextMonth, nextYear, 1);
+    switchButton.on("click",function() {
+      var clicked=$(this);
+      var generateCalendars = function(e) {
+        var nextDatesFirst = getAdjacentMonth(month, year, e);
+        var nextDatesSecond = getAdjacentMonth(nextMonth, nextYear, e);
+        month = nextDatesFirst[0];
+        year = nextDatesFirst[1];
+        nextMonth = nextDatesSecond[0];
+        nextYear = nextDatesSecond[1];
+
+        c(month, year, 0);
+        c(nextMonth, nextYear, 1);
+      };
+      if(clicked.attr("class").indexOf("left")!=-1) { 
+        generateCalendars("previous");
+      } else { generateCalendars("next"); }
+      clickedElement = bothCals.find(".calendar_content").find("div");
+      console.log("checking");
+    });
+
+
+    //  Click picking stuff
+    function getClickedInfo(element, calendar) {
+      var clickedInfo = {};
+      var clickedCalendar,
+        clickedMonth,
+        clickedYear;
+      clickedCalendar = calendar.name;
+      //console.log(element.parent().parent().attr('class'));
+      clickedMonth = clickedCalendar == "first" ? month : nextMonth;
+      clickedYear = clickedCalendar == "first" ? year : nextYear;
+      clickedInfo = {"calNum": clickedCalendar,
+              "date": parseInt(element.text()),
+              "month": clickedMonth,
+              "year": clickedYear}
+      //console.log(clickedInfo);
+      return clickedInfo;
+    }
+
+
+    // Finding between dates MADNESS. Needs refactoring and smartening up :)
+    function addChosenDates(firstClicked, secondClicked, selected) {
+      if (secondClicked.date > firstClicked.date || 
+        secondClicked.month > firstClicked.month ||
+        secondClicked.year > firstClicked.year) {
+
+        var added_year = secondClicked.year;
+        var added_month = secondClicked.month;
+        var added_date = secondClicked.date;
+        console.log(selected);
+
+        if (added_year > firstClicked.year) { 
+          // first add all dates from all months of Second-Clicked-Year
+          selected[added_year] = {};
+          selected[added_year][added_month] = [];
+          for (var i = 1; 
+            i <= secondClicked.date;
+            i++) {
+            selected[added_year][added_month].push(i);
+          }
+      
+          added_month = added_month - 1;
+          console.log(added_month);
+          while (added_month >= 0) {
+            selected[added_year][added_month] = [];
+            for (var i = 1; 
+              i <= getDaysInMonth(added_year, added_month);
+              i++) {
+              selected[added_year][added_month].push(i);
+            }
+            added_month = added_month - 1;
+          }
+
+          added_year = added_year - 1;
+          added_month = 11; // reset month to Dec because we decreased year
+          added_date = getDaysInMonth(added_year, added_month); // reset date as well
+
+          // Now add all dates from all months of inbetween years
+          while (added_year > firstClicked.year) {
+            selected[added_year] = {};
+            for (var i=0; i < 12; i++) {
+              selected[added_year][i] = [];
+              for (var d = 1; d <= getDaysInMonth(added_year, i); d++) {
+                selected[added_year][i].push(d);
+              }
+            }
+            added_year = added_year - 1;
+          }
+        }
+        
+        if (added_month > firstClicked.month) {
+          if (firstClicked.year == secondClicked.year) {
+            console.log("here is the month:",added_month);
+            selected[added_year][added_month] = [];
+            for (var i = 1; 
+              i <= secondClicked.date;
+              i++) {
+              selected[added_year][added_month].push(i);
+            }
+            added_month = added_month - 1;
+          }
+          while (added_month > firstClicked.month) {
+            selected[added_year][added_month] = [];
+            for (var i = 1; 
+              i <= getDaysInMonth(added_year, added_month);
+              i++) {
+              selected[added_year][added_month].push(i);
+            }
+            added_month = added_month - 1;
+          }
+          added_date = getDaysInMonth(added_year, added_month);
+        }
+
+        for (var i = firstClicked.date + 1; 
+          i <= added_date;
+          i++) {
+          selected[added_year][added_month].push(i);
+        }
+      }
+      return selected;
+    }
+});
+
+  $('.file-upload-panel input').change(function () {
+    $('.uploaded-file-select').text(this.files.length + " file(s) selected");
+  });
+    </script>
+
+
+  </body>
+</html>
