@@ -109,10 +109,13 @@ a:hover {
 /*Header Nav Section Element Starts*/
 header {
 	padding-top: 10px;
+	position: relative;
+	z-index: 999;
 }
 .header-border {
 	border-bottom: 1px solid #EAEAE7;
 	padding-bottom: 12px;
+	background-color: #fff;
 }
 .navbar {
 	padding-left: 0;
@@ -324,7 +327,7 @@ header {
     box-sizing: border-box;
     display: block;
     width: 100%;
-    z-index: 1051;
+    z-index: 1051!important;
 }
 .bootstrap-select .dropdown-menu {
     padding: .5rem;
@@ -1406,9 +1409,6 @@ div.custom-control-right .custom-control-label::before {
 }
 /*City Search Result Section Ends Here*/
 /*Search Results Page Section Starts Here*/
-#full-height-page {
-	height: 100vh;
-}
 .bootstrap-select .dropdown-toggle .filter-option-inner-inner {
     overflow: hidden;
     max-width: 125px;
@@ -1440,18 +1440,22 @@ div.custom-control-right .custom-control-label::before {
 	box-shadow: 0px 2px 2px rgba(218, 227, 225, 0.1), inset 0px -1px 1px rgba(218, 227, 225, 0.15);
 	border-radius: 4px;
 	display: inline-block!important;
+	z-index: 9999!important;
 }
 .bootstrap-select .dropdown-menu li a span.check-mark {
     display: none;
 }
 .bootstrap-select .dropdown-item .selected >  .dropdown-menu li a span.check-mark {
 	display: block;
+	z-index: 9999!important;
 }
 .bootstrap-select.show-tick .dropdown-menu li a span.text {
     margin-left: 25px;
 }
 .bootstrap-select>.dropdown-menu.show {
     width: auto!important;
+    z-index: 9999!important;
+    position: relative;
 }
 /* Create the checkmark/indicator (hidden when not checked) */
 .bootstrap-select.show-tick .dropdown-menu .selected span.check-mark:after {
@@ -1611,38 +1615,41 @@ div.custom-control-right .custom-control-label::before {
 .for-padding-24 {
 	padding-top: 24px;
 	padding-bottom: 24px;
+	position: relative;
+	z-index: 99;
 }
 .search-page-result {
-	height: 84vh;
-	overflow: hidden;
+	position: relative;
 }
 .search-page-left-content {
+	min-height: 100%;
 	position: relative;
-/*	height: 84vh;
-	overflow: hidden;
-	overflow-x: hidden;*/
+	z-index: 9;
+	background-color: #fff;
 }
 .search-page-left-content-full-wrapper {
-	
+	margin-left: 40px;
+}
+.map-wrapper-content {
+	position: relative;
 }
 .city-search-result-content-map {
-	position: absolute;
+	position: fixed;
 	right: 0;
 	top: 0;
 	float: right;
-	height: 84vh;
+	height: 100vh;
 	width: 100%;
 	padding-left: 0;
 	padding-right: 0;
+	z-index: 1!important;
 }
 #map {
-	position: sticky;
-	top: 0;
-	right: 0;
 	height: 100%;
 	width: 100%;
 	padding-left: 0;
 	padding-right: 0;
+	z-index: 1!important
 }
 .search-page-city-content {
 	border-bottom: 1px solid #EAEAE7;
@@ -1705,22 +1712,24 @@ div.custom-control-right .custom-control-label::before {
 	border-top: 1px solid #EAEAE7;
 	padding-top: 20px;
 }
+.search-page-city-content:last-child {
+	margin-bottom: 180px;
+}
 /*Search Results Page Section Ends Here*/ 
 /*Save Search Floating Section Here*/
 .save-search-float-section {
 	border: 1px solid #EAEAE7;
-	box-sizing: border-box;
 	box-shadow: 0px 100px 96px rgba(97, 97, 78, 0.04), 0px 36.5016px 35.0416px rgba(97, 97, 78, 0.0275993), 0px 17.7209px 17.012px rgba(97, 97, 78, 0.0222516), 0px 8.6871px 8.33962px rgba(97, 97, 78, 0.0177484), 0px 3.43489px 3.2975px rgba(97, 97, 78, 0.0124007);
 	border-radius: 4px;
 	border-left: 2px solid #18BC9C;
 	padding: 20px 20px 20px 30px;
 	background-color: #fff;
-	position: absolute;
-	bottom: 2%;
+	position: fixed;
+	bottom: 5%;
 	left: 0;
-	width: 97%;
-	margin-top: 40px;
-	overflow: hidden;
+	width: 54%;
+	margin-left: 30px;
+	z-index: 99;
 	border-top-left-radius: 0;
 	border-bottom-left-radius: 0;
 }
@@ -3135,13 +3144,15 @@ button.switch-month:active {
     display: block;
     color: #C5CDCB;
 }
-.success-page-accordion-btn[aria-expanded="true"] > .success-additional-service-accordion img {
+.success-page-accordion-btn[aria-expanded="true"] > .success-additional-service-accordion svg path, .success-page-accordion-btn[aria-expanded="true"] > .success-additional-service-accordion svg {
     background-color: #E4F4F1;
+    fill: #18BC9C!important;
 }
-.success-additional-service-accordion img {
+.success-additional-service-accordion svg {
 	padding: 12px;
 	border-radius: 4px;
 	background-color: #EAEAE7;
+	fill: #9AA09E;
 }
 .success-additional-service-accordion h6 {
 	font-weight: 700;
@@ -3206,6 +3217,8 @@ footer {
 	background-color: #393F3E;
 	color: #fff;
 	padding-top: 90px;
+	z-index: 999!important;
+	position: relative;
 }
 .footer-first-column svg {
 	width: 80%;
