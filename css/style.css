@@ -1409,6 +1409,9 @@ div.custom-control-right .custom-control-label::before {
 }
 /*City Search Result Section Ends Here*/
 /*Search Results Page Section Starts Here*/
+.full-height-page {
+	height: 100%;
+}
 .bootstrap-select .dropdown-toggle .filter-option-inner-inner {
     overflow: hidden;
     max-width: 125px;
@@ -1642,14 +1645,14 @@ div.custom-control-right .custom-control-label::before {
 	width: 100%;
 	padding-left: 0;
 	padding-right: 0;
-	z-index: 1!important;
+	z-index: 0;
 }
 #map {
 	height: 100%;
 	width: 100%;
 	padding-left: 0;
 	padding-right: 0;
-	z-index: 1!important
+	z-index: 0;
 }
 .search-page-city-content {
 	border-bottom: 1px solid #EAEAE7;
@@ -2509,6 +2512,11 @@ button.switch-month:active {
 	color: #393F3E;
 	margin: 10px 0;
 }
+
+.listing-page-sticky-right-content {
+	position: sticky;
+	right: 0;
+}
 .bottom-border-styling {
 	border-bottom: 1px solid #EAEAE7;
 }
@@ -3217,7 +3225,7 @@ footer {
 	background-color: #393F3E;
 	color: #fff;
 	padding-top: 90px;
-	z-index: 999!important;
+	z-index: 99!important;
 	position: relative;
 }
 .footer-first-column svg {
@@ -3289,3 +3297,7 @@ footer {
 	margin-bottom: 30px;
 }
 /*Footer Section Ends Here*/
+
+/*Modal Settings*/
+
+/*Modal Settings*/
