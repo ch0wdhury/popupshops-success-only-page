@@ -28,6 +28,9 @@ a {
 a:hover {
 	text-decoration: none;
 }
+a[role=button], a[type=submit] {
+	-webkit-appearance: none;
+}
 .container-fluid {
 	padding-right: 40px;
 	padding-left: 40px;
@@ -3220,6 +3223,7 @@ button.switch-month:active {
 	margin-bottom: 5px;
 }
 /*Success Page Styling Ends Here*/
+
 /*Footer Section Starts Here*/
 footer {
 	background-color: #393F3E;
